@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Cloudbeds",
+    "ats": "greenhouse",
+    "slug": "cloudbeds",
+    "career_url": "https://job-boards.greenhouse.io/cloudbeds",
+    "jobs_count": 52
+  },
+  {
+    "name": "Mews",
+    "ats": "greenhouse",
+    "slug": "mewssystems",
+    "career_url": "https://job-boards.greenhouse.io/mewssystems",
+    "jobs_count": 32
+  },
+  {
+    "name": "Canary Technologies",
+    "ats": "lever",
+    "slug": "canarytechnologies",
+    "career_url": "https://jobs.lever.co/canarytechnologies",
+    "jobs_count": 35
+  },
+  {
+    "name": "Samsara",
+    "ats": "greenhouse",
+    "slug": "samsara",
+    "career_url": "https://job-boards.greenhouse.io/samsara",
+    "jobs_count": 269
+  },
+  {
+    "name": "Augury",
+    "ats": "greenhouse",
+    "slug": "augury",
+    "career_url": "https://job-boards.greenhouse.io/augury",
+    "jobs_count": 16
+  },
+  {
+    "name": "Formlabs",
+    "ats": "greenhouse",
+    "slug": "formlabs",
+    "career_url": "https://job-boards.greenhouse.io/formlabs",
+    "jobs_count": 212
+  },
+  {
+    "name": "Foundry",
+    "ats": "greenhouse",
+    "slug": "foundry",
+    "career_url": "https://job-boards.greenhouse.io/foundry",
+    "jobs_count": 9
+  },
+  {
+    "name": "Sofar Ocean",
+    "ats": "ashby",
+    "slug": "sofarocean",
+    "career_url": "https://jobs.ashbyhq.com/sofarocean",
+    "jobs_count": 11
+  },
+  {
+    "name": "Bedrock Ocean Exploration",
+    "ats": "ashby",
+    "slug": "bedrockocean",
+    "career_url": "https://jobs.ashbyhq.com/bedrockocean",
+    "jobs_count": 5
+  },
+  {
+    "name": "Astranis",
+    "ats": "greenhouse",
+    "slug": "astranis",
+    "career_url": "https://job-boards.greenhouse.io/astranis",
+    "jobs_count": 101
+  },
+  {
+    "name": "Varda Space",
+    "ats": "greenhouse",
+    "slug": "vardaspace",
+    "career_url": "https://job-boards.greenhouse.io/vardaspace",
+    "jobs_count": 95
+  },
+  {
+    "name": "Replit",
+    "ats": "ashby",
+    "slug": "replit",
+    "career_url": "https://jobs.ashbyhq.com/replit",
+    "jobs_count": 76
+  }
+]

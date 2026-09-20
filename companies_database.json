@@ -1,0 +1,4162 @@
+[
+  {
+    "name": "OpenAI",
+    "ats": "Ashby",
+    "slug": "openai",
+    "domain": "Frontier AI & Foundation Models",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/openai"
+  },
+  {
+    "name": "Anthropic",
+    "ats": "Greenhouse",
+    "slug": "anthropic",
+    "domain": "AI Safety & Large Language Models",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/anthropic"
+  },
+  {
+    "name": "Scale AI",
+    "ats": "Greenhouse",
+    "slug": "scaleai",
+    "domain": "AI Data Infrastructure & Model Evaluation",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/scaleai"
+  },
+  {
+    "name": "Databricks",
+    "ats": "Greenhouse",
+    "slug": "databricks",
+    "domain": "Unified AI, Analytics & Lakehouse Platform",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/databricks"
+  },
+  {
+    "name": "Snowflake",
+    "ats": "Ashby",
+    "slug": "snowflake",
+    "domain": "Data Cloud & AI Compute Platform",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/snowflake"
+  },
+  {
+    "name": "Perplexity",
+    "ats": "ashby",
+    "slug": "perplexityai",
+    "domain": "Conversational AI & Neural Search Engine",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/perplexityai"
+  },
+  {
+    "name": "Cohere",
+    "ats": "Ashby",
+    "slug": "cohere",
+    "domain": "Enterprise AI & Foundation NLP Models",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/cohere"
+  },
+  {
+    "name": "Cursor",
+    "ats": "ashby",
+    "slug": "anysphere",
+    "domain": "AI Code Generation & Neural IDE Platform",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/anysphere"
+  },
+  {
+    "name": "ElevenLabs",
+    "ats": "Ashby",
+    "slug": "elevenlabs",
+    "domain": "Generative Voice AI & Speech Synthesis",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/elevenlabs"
+  },
+  {
+    "name": "Modal",
+    "ats": "Ashby",
+    "slug": "modal",
+    "domain": "Serverless Python Cloud & GPU Containers",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/modal"
+  },
+  {
+    "name": "RunPod",
+    "ats": "Ashby",
+    "slug": "runpod",
+    "domain": "Distributed GPU Cloud Infrastructure for AI",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/runpod"
+  },
+  {
+    "name": "Baseten",
+    "ats": "Ashby",
+    "slug": "baseten",
+    "domain": "High-Throughput ML Model Inference Infra",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/baseten"
+  },
+  {
+    "name": "Pinecone",
+    "ats": "Ashby",
+    "slug": "pinecone",
+    "domain": "Vector Database Infrastructure for AI",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/pinecone"
+  },
+  {
+    "name": "Weaviate",
+    "ats": "Ashby",
+    "slug": "weaviate",
+    "domain": "Open Source Vector Database & AI Search",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/weaviate"
+  },
+  {
+    "name": "Anyscale",
+    "ats": "Ashby",
+    "slug": "anyscale",
+    "domain": "Distributed Ray Computing & ML Infrastructure",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/anyscale"
+  },
+  {
+    "name": "Groq",
+    "ats": "greenhouse",
+    "slug": "groq",
+    "domain": "LPU Inference Hardware & High-Speed AI Cloud",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/groq"
+  },
+  {
+    "name": "Replicate",
+    "ats": "ashby",
+    "slug": "replicate",
+    "domain": "Serverless Open Source Model Deployment",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/replicate"
+  },
+  {
+    "name": "LangChain",
+    "ats": "Ashby",
+    "slug": "langchain",
+    "domain": "LLM Orchestration Framework & Agent Tooling",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/langchain"
+  },
+  {
+    "name": "Together AI",
+    "ats": "Greenhouse",
+    "slug": "togetherai",
+    "domain": "Cloud Platform for Training & Inference",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/togetherai"
+  },
+  {
+    "name": "Mistral AI",
+    "ats": "ashby",
+    "slug": "mistral",
+    "domain": "Open-Weight Frontier Language Models",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/mistral"
+  },
+  {
+    "name": "Glean",
+    "ats": "greenhouse",
+    "slug": "glean",
+    "domain": "AI Enterprise Search & Work Assistant",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/glean"
+  },
+  {
+    "name": "Character.ai",
+    "ats": "ashby",
+    "slug": "characterai",
+    "domain": "Neural Conversational Agent Platforms",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/characterai"
+  },
+  {
+    "name": "CoreWeave",
+    "ats": "Greenhouse",
+    "slug": "coreweave",
+    "domain": "Specialized Cloud GPU AI Infrastructure",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/coreweave"
+  },
+  {
+    "name": "Lambda Labs",
+    "ats": "greenhouse",
+    "slug": "lambdalabs",
+    "domain": "Deep Learning Cloud & GPU Clusters",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/lambdalabs"
+  },
+  {
+    "name": "Fireworks AI",
+    "ats": "ashby",
+    "slug": "fireworksai",
+    "domain": "Ultra-Fast Generative AI Inference Cloud",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/fireworksai"
+  },
+  {
+    "name": "Writer",
+    "ats": "Ashby",
+    "slug": "writer",
+    "domain": "Enterprise Generative AI Platform",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/writer"
+  },
+  {
+    "name": "Qdrant",
+    "ats": "ashby",
+    "slug": "qdrant",
+    "domain": "High-Performance Vector Similarity Engine",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/qdrant"
+  },
+  {
+    "name": "Chroma",
+    "ats": "ashby",
+    "slug": "chroma",
+    "domain": "Open-Source AI Embedding Database",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/chroma"
+  },
+  {
+    "name": "Weights & Biases",
+    "ats": "greenhouse",
+    "slug": "wandb",
+    "domain": "MLOps Platform & Experiment Tracking",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/wandb"
+  },
+  {
+    "name": "Deepgram",
+    "ats": "Ashby",
+    "slug": "deepgram",
+    "domain": "Automatic Speech Recognition & Voice AI APIs",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/deepgram"
+  },
+  {
+    "name": "Synthesia",
+    "ats": "Ashby",
+    "slug": "synthesia",
+    "domain": "AI Video Generation & Digital Avatars",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/synthesia"
+  },
+  {
+    "name": "Adept",
+    "ats": "ashby",
+    "slug": "adept",
+    "domain": "Action-Oriented AI Agents for Software",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/adept"
+  },
+  {
+    "name": "Harvey",
+    "ats": "Ashby",
+    "slug": "harvey",
+    "domain": "Domain-Specific Legal & Contract AI Agents",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/harvey"
+  },
+  {
+    "name": "Dust",
+    "ats": "Ashby",
+    "slug": "dust",
+    "domain": "Custom Multi-Model AI Assistants for Teams",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/dust"
+  },
+  {
+    "name": "Arthur AI",
+    "ats": "greenhouse",
+    "slug": "arthurai",
+    "domain": "Model Monitoring & LLM Guardrails",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/arthurai"
+  },
+  {
+    "name": "Runway",
+    "ats": "Ashby",
+    "slug": "runway",
+    "domain": "Generative Video & Creative Multimodal AI",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/runway"
+  },
+  {
+    "name": "Jasper",
+    "ats": "greenhouse",
+    "slug": "jasper",
+    "domain": "Enterprise AI Marketing & Content Platform",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/jasper"
+  },
+  {
+    "name": "Snorkel AI",
+    "ats": "Greenhouse",
+    "slug": "snorkelai",
+    "domain": "Programmatic Data Labeling & AI Development",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/snorkelai"
+  },
+  {
+    "name": "Hugging Face",
+    "ats": "lever",
+    "slug": "huggingface",
+    "domain": "Open Source AI Repository & Community Hub",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.lever.co/huggingface"
+  },
+  {
+    "name": "Midjourney",
+    "ats": "Ashby",
+    "slug": "midjourney",
+    "domain": "Neural Image Generation Engine",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/midjourney"
+  },
+  {
+    "name": "Covariant",
+    "ats": "greenhouse",
+    "slug": "covariant",
+    "domain": "Universal AI Brain for Industrial Robotics",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/covariant"
+  },
+  {
+    "name": "Unstructured",
+    "ats": "Ashby",
+    "slug": "unstructured",
+    "domain": "LLM Ingestion & ETL for Enterprise Documents",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/unstructured"
+  },
+  {
+    "name": "LlamaIndex",
+    "ats": "Ashby",
+    "slug": "llamaindex",
+    "domain": "Data Framework for LLM Context & Agents",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/llamaindex"
+  },
+  {
+    "name": "OctoML",
+    "ats": "greenhouse",
+    "slug": "octoml",
+    "domain": "Accelerated AI Compute & Compilation",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/octoml"
+  },
+  {
+    "name": "Labelbox",
+    "ats": "Greenhouse",
+    "slug": "labelbox",
+    "domain": "Training Data Platform for AI Systems",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/labelbox"
+  },
+  {
+    "name": "Arize AI",
+    "ats": "Greenhouse",
+    "slug": "arizeai",
+    "domain": "LLM Observability & Evaluation Platform",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/arizeai"
+  },
+  {
+    "name": "Fiddler AI",
+    "ats": "greenhouse",
+    "slug": "fiddler",
+    "domain": "Model Governance, Fairness & Explainability",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/fiddler"
+  },
+  {
+    "name": "Dataiku",
+    "ats": "Greenhouse",
+    "slug": "dataiku",
+    "domain": "Enterprise Everyday AI Platform",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/dataiku"
+  },
+  {
+    "name": "H2O.ai",
+    "ats": "greenhouse",
+    "slug": "h2oai",
+    "domain": "Democratized Machine Learning & AutoML",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/h2oai"
+  },
+  {
+    "name": "Domino Data Lab",
+    "ats": "Greenhouse",
+    "slug": "dominodatalab",
+    "domain": "Enterprise MLOps & Data Science Platform",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/dominodatalab"
+  },
+  {
+    "name": "Cleanlab",
+    "ats": "ashby",
+    "slug": "cleanlab",
+    "domain": "Data-Centric AI & Automated Label Correction",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/cleanlab"
+  },
+  {
+    "name": "Cartesia",
+    "ats": "Ashby",
+    "slug": "cartesia",
+    "domain": "Real-Time Streaming Voice AI Models",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/cartesia"
+  },
+  {
+    "name": "Pika Labs",
+    "ats": "Ashby",
+    "slug": "pika",
+    "domain": "AI Video Generation & Visual Creativity",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/pika"
+  },
+  {
+    "name": "HeyGen",
+    "ats": "Greenhouse",
+    "slug": "heygen",
+    "domain": "AI Avatar & Automated Video Translation",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/heygen"
+  },
+  {
+    "name": "Suno",
+    "ats": "Ashby",
+    "slug": "suno",
+    "domain": "Generative Audio & Musical AI Models",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/suno"
+  },
+  {
+    "name": "Udio",
+    "ats": "Greenhouse",
+    "slug": "udio",
+    "domain": "Generative Music Synthesis & Sound Creation",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/udio"
+  },
+  {
+    "name": "Shield AI",
+    "ats": "Lever",
+    "slug": "shieldai",
+    "domain": "Autonomous AI Pilot for Aerospace Systems",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.lever.co/shieldai"
+  },
+  {
+    "name": "StarTree",
+    "ats": "Greenhouse",
+    "slug": "startree",
+    "domain": "Real-Time Analytics Cloud Powered by Apache Pinot",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/startree"
+  },
+  {
+    "name": "Decodable",
+    "ats": "ashby",
+    "slug": "decodable",
+    "domain": "Real-Time Streaming Data Platform (Apache Flink)",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/decodable"
+  },
+  {
+    "name": "WarpStream",
+    "ats": "ashby",
+    "slug": "warpstream",
+    "domain": "Kafka-Compatible Streaming Architecture on S3",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/warpstream"
+  },
+  {
+    "name": "Stripe",
+    "ats": "Greenhouse",
+    "slug": "stripe",
+    "domain": "Global Online Payment Infrastructure",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/stripe"
+  },
+  {
+    "name": "Plaid",
+    "ats": "Ashby",
+    "slug": "plaid",
+    "domain": "Financial Data APIs & Open Banking Rails",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/plaid"
+  },
+  {
+    "name": "Ramp",
+    "ats": "Ashby",
+    "slug": "ramp",
+    "domain": "Corporate Card & Spend Management Automation",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/ramp"
+  },
+  {
+    "name": "Brex",
+    "ats": "Greenhouse",
+    "slug": "brex",
+    "domain": "Global Financial Stack for Startups & Scaleups",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/brex"
+  },
+  {
+    "name": "Chime",
+    "ats": "Greenhouse",
+    "slug": "chime",
+    "domain": "Consumer Neobanking & Micro-Payment Pipelines",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/chime"
+  },
+  {
+    "name": "Robinhood",
+    "ats": "Greenhouse",
+    "slug": "robinhood",
+    "domain": "High-Frequency Retail Brokerage & Trading",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/robinhood"
+  },
+  {
+    "name": "Coinbase",
+    "ats": "Greenhouse",
+    "slug": "coinbase",
+    "domain": "Cryptocurrency Exchange & Web3 Infrastructure",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/coinbase"
+  },
+  {
+    "name": "Block",
+    "ats": "Greenhouse",
+    "slug": "block",
+    "domain": "Square POS & Cash App Financial Ecosystem",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/block"
+  },
+  {
+    "name": "Affirm",
+    "ats": "Greenhouse",
+    "slug": "affirm",
+    "domain": "Point-of-Sale Installment Lending & Underwriting",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/affirm"
+  },
+  {
+    "name": "Mercury",
+    "ats": "Greenhouse",
+    "slug": "mercury",
+    "domain": "Digital Commercial Banking for Tech Companies",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/mercury"
+  },
+  {
+    "name": "SoFi",
+    "ats": "Greenhouse",
+    "slug": "sofi",
+    "domain": "Full-Stack Consumer Lending & Wealth Management",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/sofi"
+  },
+  {
+    "name": "Toast",
+    "ats": "Greenhouse",
+    "slug": "toast",
+    "domain": "Restaurant POS & Transaction Settlement Cloud",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/toast"
+  },
+  {
+    "name": "SpotOn",
+    "ats": "Ashby",
+    "slug": "spoton",
+    "domain": "Payment Terminals & Merchant Transaction Rails",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/spoton"
+  },
+  {
+    "name": "Blend",
+    "ats": "Greenhouse",
+    "slug": "blend",
+    "domain": "Cloud Mortgage & Consumer Banking Workflows",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/blend"
+  },
+  {
+    "name": "Gusto",
+    "ats": "Greenhouse",
+    "slug": "gusto",
+    "domain": "Automated Payroll, Tax & Benefits Processing",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/gusto"
+  },
+  {
+    "name": "Rippling",
+    "ats": "greenhouse",
+    "slug": "rippling",
+    "domain": "Unified Workforce Management & Global Payroll",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/rippling"
+  },
+  {
+    "name": "Deel",
+    "ats": "greenhouse",
+    "slug": "deel",
+    "domain": "Global Payroll & International Compliance Rails",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/deel"
+  },
+  {
+    "name": "Carta",
+    "ats": "Greenhouse",
+    "slug": "carta",
+    "domain": "Cap Table Management & Private Market Liquidity",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/carta"
+  },
+  {
+    "name": "Klarna",
+    "ats": "greenhouse",
+    "slug": "klarna",
+    "domain": "Global Buy Now Pay Later Shopping Platform",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/klarna"
+  },
+  {
+    "name": "Marqeta",
+    "ats": "greenhouse",
+    "slug": "marqeta",
+    "domain": "Modern Card Issuing & Just-In-Time Authorization",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/marqeta"
+  },
+  {
+    "name": "Modern Treasury",
+    "ats": "Ashby",
+    "slug": "moderntreasury",
+    "domain": "Payment Operations Software & ACH/Fedwire APIs",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/moderntreasury"
+  },
+  {
+    "name": "Checkout.com",
+    "ats": "greenhouse",
+    "slug": "checkout",
+    "domain": "Connected Global Payment Processing Platform",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/checkout"
+  },
+  {
+    "name": "Apex Clearing",
+    "ats": "greenhouse",
+    "slug": "apexfintechsolutions",
+    "domain": "Custody, Clearing & Brokerage Execution APIs",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/apexfintechsolutions"
+  },
+  {
+    "name": "DriveWealth",
+    "ats": "Greenhouse",
+    "slug": "drivewealth",
+    "domain": "Fractional Share Brokerage-as-a-Service",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/drivewealth"
+  },
+  {
+    "name": "Circle",
+    "ats": "Ashby",
+    "slug": "circle",
+    "domain": "USDC Digital Currency & Treasury Infrastructure",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/circle"
+  },
+  {
+    "name": "Kraken",
+    "ats": "lever",
+    "slug": "kraken",
+    "domain": "Digital Asset Exchange & Institutional Staking",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.lever.co/kraken"
+  },
+  {
+    "name": "FalconX",
+    "ats": "Greenhouse",
+    "slug": "falconx",
+    "domain": "Institutional Digital Asset Prime Brokerage",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/falconx"
+  },
+  {
+    "name": "Gemini",
+    "ats": "Greenhouse",
+    "slug": "gemini",
+    "domain": "Regulated Crypto Custody & Exchange Services",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/gemini"
+  },
+  {
+    "name": "Upstart",
+    "ats": "Greenhouse",
+    "slug": "upstart",
+    "domain": "AI-Driven Credit Underwriting & Personal Loans",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/upstart"
+  },
+  {
+    "name": "Dave",
+    "ats": "Ashby",
+    "slug": "dave",
+    "domain": "Personal Finance & Overdraft Advance App",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/dave"
+  },
+  {
+    "name": "Upgrade",
+    "ats": "Greenhouse",
+    "slug": "upgrade",
+    "domain": "Consumer Credit, Checking & Loan Portfolios",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/upgrade"
+  },
+  {
+    "name": "Cross River",
+    "ats": "greenhouse",
+    "slug": "crossriver",
+    "domain": "Fintech Banking-as-a-Service Infrastructure",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/crossriver"
+  },
+  {
+    "name": "Flywire",
+    "ats": "greenhouse",
+    "slug": "flywire",
+    "domain": "Cross-Border High-Value Payment Reconciliation",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/flywire"
+  },
+  {
+    "name": "Remitly",
+    "ats": "greenhouse",
+    "slug": "remitly",
+    "domain": "Cross-Border Mobile Remittance Pipelines",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/remitly"
+  },
+  {
+    "name": "Tala",
+    "ats": "Lever",
+    "slug": "tala",
+    "domain": "Emerging Markets Mobile Micro-Financing",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.lever.co/tala"
+  },
+  {
+    "name": "Petal",
+    "ats": "greenhouse",
+    "slug": "petal",
+    "domain": "Cash-Flow Underwritten Consumer Credit Cards",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/petal"
+  },
+  {
+    "name": "Stash",
+    "ats": "greenhouse",
+    "slug": "stash",
+    "domain": "Micro-Investing & Personal Financial Growth",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/stash"
+  },
+  {
+    "name": "Acorns",
+    "ats": "Ashby",
+    "slug": "acorns",
+    "domain": "Automated Spare-Change Micro-Investing App",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/acorns"
+  },
+  {
+    "name": "Current",
+    "ats": "Greenhouse",
+    "slug": "current",
+    "domain": "High-Yield Mobile Banking for Modern Workers",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/current"
+  },
+  {
+    "name": "Albert",
+    "ats": "greenhouse",
+    "slug": "albert",
+    "domain": "Automated Financial Advice, Saving & Budgeting",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/albert"
+  },
+  {
+    "name": "Step",
+    "ats": "Greenhouse",
+    "slug": "step",
+    "domain": "Teen & Next-Gen Banking Card Infrastructure",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/step"
+  },
+  {
+    "name": "Melio",
+    "ats": "Greenhouse",
+    "slug": "melio",
+    "domain": "Small Business B2B Accounts Payable Automation",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/melio"
+  },
+  {
+    "name": "Tipalti",
+    "ats": "greenhouse",
+    "slug": "tipalti",
+    "domain": "Global Multi-Currency Payables Automation",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/tipalti"
+  },
+  {
+    "name": "Navan",
+    "ats": "greenhouse",
+    "slug": "navan",
+    "domain": "Corporate Travel, Expense & Corporate Cards",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/navan"
+  },
+  {
+    "name": "Paylocity",
+    "ats": "greenhouse",
+    "slug": "paylocity",
+    "domain": "Cloud HR, Payroll & Talent Management Software",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/paylocity"
+  },
+  {
+    "name": "Bill.com",
+    "ats": "Greenhouse",
+    "slug": "billcom",
+    "domain": "Automated Financial Operations & B2B Invoicing",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/billcom"
+  },
+  {
+    "name": "AvidXchange",
+    "ats": "greenhouse",
+    "slug": "avidxchange",
+    "domain": "Accounts Payable Automation & Payment Networks",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/avidxchange"
+  },
+  {
+    "name": "Alloy",
+    "ats": "Greenhouse",
+    "slug": "alloy",
+    "domain": "Identity Verification & Fraud Prevention APIs",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/alloy"
+  },
+  {
+    "name": "Unit",
+    "ats": "Ashby",
+    "slug": "unit",
+    "domain": "Banking-as-a-Service Platform for Developers",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/unit"
+  },
+  {
+    "name": "Lithic",
+    "ats": "Greenhouse",
+    "slug": "lithic",
+    "domain": "Card Issuing APIs & Real-Time Authorizations",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/lithic"
+  },
+  {
+    "name": "Moov Financial",
+    "ats": "ashby",
+    "slug": "moov",
+    "domain": "Direct-to-Network Processing & Embedded Payments",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/moov"
+  },
+  {
+    "name": "Anchorage Digital",
+    "ats": "greenhouse",
+    "slug": "anchoragedigital",
+    "domain": "Chartered Crypto Bank & Institutional Custody",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/anchoragedigital"
+  },
+  {
+    "name": "BitGo",
+    "ats": "Greenhouse",
+    "slug": "bitgo",
+    "domain": "Digital Asset Multi-Signature Security & Custody",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/bitgo"
+  },
+  {
+    "name": "Chainalysis",
+    "ats": "greenhouse",
+    "slug": "chainalysis",
+    "domain": "Blockchain Data Platform & Compliance Analytics",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/chainalysis"
+  },
+  {
+    "name": "Fireblocks",
+    "ats": "Greenhouse",
+    "slug": "fireblocks",
+    "domain": "MPC Custody & Digital Asset Transfer Network",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/fireblocks"
+  },
+  {
+    "name": "Paxos",
+    "ats": "Ashby",
+    "slug": "paxos",
+    "domain": "Regulated Blockchain & Tokenization Infrastructure",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/paxos"
+  },
+  {
+    "name": "Cloudflare",
+    "ats": "Greenhouse",
+    "slug": "cloudflare",
+    "domain": "Global Edge Network, CDN & Workers Compute",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/cloudflare"
+  },
+  {
+    "name": "Datadog",
+    "ats": "Greenhouse",
+    "slug": "datadog",
+    "domain": "Cloud Telemetry, Monitoring & Observability",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/datadog"
+  },
+  {
+    "name": "MongoDB",
+    "ats": "Greenhouse",
+    "slug": "mongodb",
+    "domain": "Distributed Document Database & Atlas Cloud",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/mongodb"
+  },
+  {
+    "name": "Elastic",
+    "ats": "Greenhouse",
+    "slug": "elastic",
+    "domain": "Distributed Search, Observability & Analytics",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/elastic"
+  },
+  {
+    "name": "Cockroach Labs",
+    "ats": "Greenhouse",
+    "slug": "cockroachlabs",
+    "domain": "Cloud Distributed SQL Infrastructure",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/cockroachlabs"
+  },
+  {
+    "name": "Confluent",
+    "ats": "Ashby",
+    "slug": "confluent",
+    "domain": "Event Streaming Platform Powered by Apache Kafka",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/confluent"
+  },
+  {
+    "name": "HashiCorp",
+    "ats": "greenhouse",
+    "slug": "hashicorp",
+    "domain": "Multi-Cloud Infrastructure Automation (Terraform)",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/hashicorp"
+  },
+  {
+    "name": "DigitalOcean",
+    "ats": "greenhouse",
+    "slug": "digitalocean",
+    "domain": "Developer Cloud Infrastructure & Droplets",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/digitalocean"
+  },
+  {
+    "name": "Fastly",
+    "ats": "Greenhouse",
+    "slug": "fastly",
+    "domain": "Programmable Edge Cloud & Real-Time CDN",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/fastly"
+  },
+  {
+    "name": "Starburst",
+    "ats": "Greenhouse",
+    "slug": "starburst",
+    "domain": "Distributed SQL Query Engine on Trino",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/starburst"
+  },
+  {
+    "name": "ClickHouse",
+    "ats": "Ashby",
+    "slug": "clickhouse",
+    "domain": "Real-Time Column-Oriented DBMS",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/clickhouse"
+  },
+  {
+    "name": "Couchbase",
+    "ats": "greenhouse",
+    "slug": "couchbase",
+    "domain": "Distributed NoSQL & In-Memory Cloud Database",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/couchbase"
+  },
+  {
+    "name": "Redis",
+    "ats": "Ashby",
+    "slug": "redis",
+    "domain": "In-Memory Data Structure Store & Cache",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/redis"
+  },
+  {
+    "name": "SingleStore",
+    "ats": "Greenhouse",
+    "slug": "singlestore",
+    "domain": "Distributed Real-Time Hybrid SQL Database",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/singlestore"
+  },
+  {
+    "name": "InfluxData",
+    "ats": "Ashby",
+    "slug": "influxdata",
+    "domain": "Time Series Database Engine & Platform",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/influxdata"
+  },
+  {
+    "name": "Timescale",
+    "ats": "greenhouse",
+    "slug": "timescale",
+    "domain": "PostgreSQL-Powered Time Series Cloud",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/timescale"
+  },
+  {
+    "name": "ScyllaDB",
+    "ats": "greenhouse",
+    "slug": "scylladb",
+    "domain": "Low-Latency Distributed NoSQL Database (C++)",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/scylladb"
+  },
+  {
+    "name": "MinIO",
+    "ats": "Greenhouse",
+    "slug": "minio",
+    "domain": "High-Performance S3-Compatible Object Storage",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/minio"
+  },
+  {
+    "name": "Neon",
+    "ats": "Ashby",
+    "slug": "neon",
+    "domain": "Serverless PostgreSQL with Branching Storage",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/neon"
+  },
+  {
+    "name": "PlanetScale",
+    "ats": "Greenhouse",
+    "slug": "planetscale",
+    "domain": "Serverless MySQL Database on Vitess Engine",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/planetscale"
+  },
+  {
+    "name": "Supabase",
+    "ats": "Ashby",
+    "slug": "supabase",
+    "domain": "Open Source Firebase Alternative on PostgreSQL",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/supabase"
+  },
+  {
+    "name": "Vercel",
+    "ats": "Greenhouse",
+    "slug": "vercel",
+    "domain": "Frontend Cloud & Serverless Deployment Platform",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/vercel"
+  },
+  {
+    "name": "Netlify",
+    "ats": "Greenhouse",
+    "slug": "netlify",
+    "domain": "Composable Web Platform & Edge Serverless",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/netlify"
+  },
+  {
+    "name": "Fly.io",
+    "ats": "ashby",
+    "slug": "flyio",
+    "domain": "App Deployment to MicroVMs Close to Users",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/flyio"
+  },
+  {
+    "name": "Railway",
+    "ats": "Ashby",
+    "slug": "railway",
+    "domain": "Instant Cloud Deployment & Database Provisioning",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/railway"
+  },
+  {
+    "name": "Render",
+    "ats": "Ashby",
+    "slug": "render",
+    "domain": "Zero-DevOps Unified Cloud Platform",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/render"
+  },
+  {
+    "name": "Dynatrace",
+    "ats": "greenhouse",
+    "slug": "dynatrace",
+    "domain": "Full-Stack Observability & AI Engine",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/dynatrace"
+  },
+  {
+    "name": "Splunk",
+    "ats": "greenhouse",
+    "slug": "splunk",
+    "domain": "Machine Data Analytics & Security Incident Mgmt",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/splunk"
+  },
+  {
+    "name": "Sumo Logic",
+    "ats": "Greenhouse",
+    "slug": "sumologic",
+    "domain": "Cloud-Native SaaS Log Analytics & Security",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/sumologic"
+  },
+  {
+    "name": "New Relic",
+    "ats": "Greenhouse",
+    "slug": "newrelic",
+    "domain": "Telemetry Data Platform & APM Monitoring",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/newrelic"
+  },
+  {
+    "name": "Grafana Labs",
+    "ats": "Greenhouse",
+    "slug": "grafanalabs",
+    "domain": "Open Source Metrics, Traces & Logs Telemetry",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/grafanalabs"
+  },
+  {
+    "name": "Cribl",
+    "ats": "Greenhouse",
+    "slug": "cribl",
+    "domain": "Telemetry & Observability Data Pipelines",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/cribl"
+  },
+  {
+    "name": "Fivetran",
+    "ats": "Greenhouse",
+    "slug": "fivetran",
+    "domain": "Automated Cloud Data Movement & ETL Connectors",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/fivetran"
+  },
+  {
+    "name": "PagerDuty",
+    "ats": "Greenhouse",
+    "slug": "pagerduty",
+    "domain": "Cloud Incident Response & Availability Platform",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/pagerduty"
+  },
+  {
+    "name": "Chronosphere",
+    "ats": "greenhouse",
+    "slug": "chronosphere",
+    "domain": "Cloud-Native Telemetry Control Plane",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/chronosphere"
+  },
+  {
+    "name": "Honeycomb.io",
+    "ats": "Greenhouse",
+    "slug": "honeycomb",
+    "domain": "High-Cardinality Distributed Tracing & APM",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/honeycomb"
+  },
+  {
+    "name": "Kong",
+    "ats": "Ashby",
+    "slug": "kong",
+    "domain": "Cloud-Native API Gateway & Service Mesh",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/kong"
+  },
+  {
+    "name": "CloudBees",
+    "ats": "greenhouse",
+    "slug": "cloudbees",
+    "domain": "Enterprise Software Delivery & Jenkins Cloud",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/cloudbees"
+  },
+  {
+    "name": "dbt Labs",
+    "ats": "greenhouse",
+    "slug": "dbtlabs",
+    "domain": "Analytics Engineering & In-Warehouse SQL Modeling",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/dbtlabs"
+  },
+  {
+    "name": "Airbyte",
+    "ats": "Ashby",
+    "slug": "airbyte",
+    "domain": "Open-Source Data Integration Platform",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/airbyte"
+  },
+  {
+    "name": "Prefect",
+    "ats": "Ashby",
+    "slug": "prefect",
+    "domain": "Orchestration & Workflow Coordination Engine",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/prefect"
+  },
+  {
+    "name": "Temporal",
+    "ats": "Ashby",
+    "slug": "temporal",
+    "domain": "Durable Execution Platform for Fault-Tolerant Code",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/temporal"
+  },
+  {
+    "name": "Astronomer",
+    "ats": "Ashby",
+    "slug": "astronomer",
+    "domain": "Modern Data Orchestration Powered by Airflow",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/astronomer"
+  },
+  {
+    "name": "Cube",
+    "ats": "Ashby",
+    "slug": "cube",
+    "domain": "Universal Semantic Layer for BI & Data Apps",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/cube"
+  },
+  {
+    "name": "Census",
+    "ats": "ashby",
+    "slug": "census",
+    "domain": "Reverse ETL & Operational Analytics Data Sync",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/census"
+  },
+  {
+    "name": "Hightouch",
+    "ats": "Greenhouse",
+    "slug": "hightouch",
+    "domain": "Composable Customer Data Platform & Reverse ETL",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/hightouch"
+  },
+  {
+    "name": "Monte Carlo",
+    "ats": "greenhouse",
+    "slug": "montecarlo",
+    "domain": "End-to-End Data Observability & Reliability",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/montecarlo"
+  },
+  {
+    "name": "Bigeye",
+    "ats": "greenhouse",
+    "slug": "bigeye",
+    "domain": "Automated Data Quality & Pipeline Health Monitoring",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/bigeye"
+  },
+  {
+    "name": "Redpanda",
+    "ats": "greenhouse",
+    "slug": "redpanda",
+    "domain": "Streaming Data Engine Compatible with Kafka (C++)",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/redpanda"
+  },
+  {
+    "name": "GitLab",
+    "ats": "Greenhouse",
+    "slug": "gitlab",
+    "domain": "Cloud CI/CD & Distributed DevSecOps Platforms",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/gitlab"
+  },
+  {
+    "name": "PostHog",
+    "ats": "Ashby",
+    "slug": "posthog",
+    "domain": "Open-Source Product Analytics & Session Replay",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/posthog"
+  },
+  {
+    "name": "Figma",
+    "ats": "Greenhouse",
+    "slug": "figma",
+    "domain": "Collaborative Interface Design & Prototyping Cloud",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/figma"
+  },
+  {
+    "name": "Linear",
+    "ats": "Ashby",
+    "slug": "linear",
+    "domain": "High-Performance Project Planning for Eng Teams",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/linear"
+  },
+  {
+    "name": "Notion",
+    "ats": "Ashby",
+    "slug": "notion",
+    "domain": "Connected Workspace for Docs, Wikis & Projects",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/notion"
+  },
+  {
+    "name": "Airtable",
+    "ats": "Greenhouse",
+    "slug": "airtable",
+    "domain": "Relational Database & Workflow App Platform",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/airtable"
+  },
+  {
+    "name": "Asana",
+    "ats": "Greenhouse",
+    "slug": "asana",
+    "domain": "Enterprise Work Management & Coordination",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/asana"
+  },
+  {
+    "name": "Docker",
+    "ats": "Ashby",
+    "slug": "docker",
+    "domain": "Containerization Platform & Developer Workflows",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/docker"
+  },
+  {
+    "name": "Sentry",
+    "ats": "Ashby",
+    "slug": "sentry",
+    "domain": "Application Performance & Code-Level Error Tracking",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/sentry"
+  },
+  {
+    "name": "LaunchDarkly",
+    "ats": "Greenhouse",
+    "slug": "launchdarkly",
+    "domain": "Feature Management & Continuous Delivery Platform",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/launchdarkly"
+  },
+  {
+    "name": "CircleCI",
+    "ats": "Greenhouse",
+    "slug": "circleci",
+    "domain": "Continuous Integration & Automated Build Pipelines",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/circleci"
+  },
+  {
+    "name": "Pulumi",
+    "ats": "greenhouse",
+    "slug": "pulumi",
+    "domain": "Infrastructure as Code Using General Purpose Languages",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/pulumi"
+  },
+  {
+    "name": "Sourcegraph",
+    "ats": "greenhouse",
+    "slug": "sourcegraph",
+    "domain": "Code Intelligence & Large Scale Search Engine",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/sourcegraph"
+  },
+  {
+    "name": "Retool",
+    "ats": "ashby",
+    "slug": "retool",
+    "domain": "Fast Internal Tool Building Platform for Devs",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/retool"
+  },
+  {
+    "name": "Zapier",
+    "ats": "Ashby",
+    "slug": "zapier",
+    "domain": "Cross-App Workflow Automation & Integrations",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/zapier"
+  },
+  {
+    "name": "Postman",
+    "ats": "greenhouse",
+    "slug": "postman",
+    "domain": "API Platform for Building & Testing Endpoints",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/postman"
+  },
+  {
+    "name": "Webflow",
+    "ats": "Greenhouse",
+    "slug": "webflow",
+    "domain": "Visual Development & Web Production Platform",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/webflow"
+  },
+  {
+    "name": "Miro",
+    "ats": "Ashby",
+    "slug": "miro",
+    "domain": "Online Collaborative Whiteboard Platform",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/miro"
+  },
+  {
+    "name": "ClickUp",
+    "ats": "Ashby",
+    "slug": "clickup",
+    "domain": "All-in-One Productivity & Task Platform",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/clickup"
+  },
+  {
+    "name": "Coda",
+    "ats": "greenhouse",
+    "slug": "coda",
+    "domain": "Interactive Documents & Application Canvas",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/coda"
+  },
+  {
+    "name": "Harness",
+    "ats": "greenhouse",
+    "slug": "harness",
+    "domain": "Intelligent Software Delivery & Chaos Engineering",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/harness"
+  },
+  {
+    "name": "Buildkite",
+    "ats": "Greenhouse",
+    "slug": "buildkite",
+    "domain": "Hybrid CI/CD Platform for Fast Builds",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/buildkite"
+  },
+  {
+    "name": "Prisma",
+    "ats": "ashby",
+    "slug": "prisma",
+    "domain": "Next-Generation Node.js & TypeScript ORM",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/prisma"
+  },
+  {
+    "name": "Hasura",
+    "ats": "greenhouse",
+    "slug": "hasura",
+    "domain": "Instant Real-Time GraphQL Engine on Databases",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/hasura"
+  },
+  {
+    "name": "Apollo GraphQL",
+    "ats": "greenhouse",
+    "slug": "apollographql",
+    "domain": "Supergraph Architecture & Federation Platform",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/apollographql"
+  },
+  {
+    "name": "Replit",
+    "ats": "Ashby",
+    "slug": "replit",
+    "domain": "Cloud Collaborative Coding & Agent Workspace",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/replit"
+  },
+  {
+    "name": "Codeium",
+    "ats": "ashby",
+    "slug": "codeium",
+    "domain": "AI-Powered In-IDE Code Acceleration Platform",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/codeium"
+  },
+  {
+    "name": "Replit",
+    "ats": "Ashby",
+    "slug": "replit",
+    "domain": "Collaborative Cloud IDE & AI Agent Software Development",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/replit"
+  },
+  {
+    "name": "Coder",
+    "ats": "Ashby",
+    "slug": "coder",
+    "domain": "Self-Hosted Cloud Dev Environment Orchestration",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/coder"
+  },
+  {
+    "name": "Warp",
+    "ats": "Greenhouse",
+    "slug": "warp",
+    "domain": "Modern Rust-Based Terminal with AI Assistance",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/warp"
+  },
+  {
+    "name": "Raycast",
+    "ats": "ashby",
+    "slug": "raycast",
+    "domain": "Extendable Desktop Command Palette & Shortcuts",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/raycast"
+  },
+  {
+    "name": "Superhuman",
+    "ats": "greenhouse",
+    "slug": "superhuman",
+    "domain": "High-Speed AI-Enhanced Email Client",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/superhuman"
+  },
+  {
+    "name": "Front",
+    "ats": "greenhouse",
+    "slug": "front",
+    "domain": "Customer Communication Hub & Shared Inboxes",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/front"
+  },
+  {
+    "name": "Grain",
+    "ats": "ashby",
+    "slug": "grain",
+    "domain": "AI Video Meeting Recorder & Intelligence",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/grain"
+  },
+  {
+    "name": "Otter.ai",
+    "ats": "Greenhouse",
+    "slug": "otterai",
+    "domain": "AI Meeting Notes, Real-Time Transcription",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/otterai"
+  },
+  {
+    "name": "CrowdStrike",
+    "ats": "greenhouse",
+    "slug": "crowdstrike",
+    "domain": "Cloud-Native Endpoint & Identity Threat Protection",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/crowdstrike"
+  },
+  {
+    "name": "SentinelOne",
+    "ats": "greenhouse",
+    "slug": "sentinelone",
+    "domain": "Autonomous AI Cyber Defense & XDR Platform",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/sentinelone"
+  },
+  {
+    "name": "Okta",
+    "ats": "Greenhouse",
+    "slug": "okta",
+    "domain": "Enterprise Cloud Identity & Single Sign-On Access",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/okta"
+  },
+  {
+    "name": "Zscaler",
+    "ats": "Greenhouse",
+    "slug": "zscaler",
+    "domain": "Zero Trust Cloud Security Architecture & ZTNA",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/zscaler"
+  },
+  {
+    "name": "Palo Alto Networks",
+    "ats": "greenhouse",
+    "slug": "paloaltonetworks",
+    "domain": "Prisma Cloud & Next-Gen Firewall Security",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/paloaltonetworks"
+  },
+  {
+    "name": "Snyk",
+    "ats": "greenhouse",
+    "slug": "snyk",
+    "domain": "Developer Security & Open Source Vulnerability Scanning",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/snyk"
+  },
+  {
+    "name": "Wiz",
+    "ats": "greenhouse",
+    "slug": "wiz",
+    "domain": "Cloud Security Posture Management & Agentless Scanning",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/wiz"
+  },
+  {
+    "name": "Abnormal Security",
+    "ats": "Greenhouse",
+    "slug": "abnormalsecurity",
+    "domain": "AI Behavioral Cloud Email Security",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/abnormalsecurity"
+  },
+  {
+    "name": "Lacework",
+    "ats": "greenhouse",
+    "slug": "lacework",
+    "domain": "Data-Driven Cloud Security & Threat Detection",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/lacework"
+  },
+  {
+    "name": "Vanta",
+    "ats": "Ashby",
+    "slug": "vanta",
+    "domain": "Automated Security Compliance (SOC 2, ISO 27001)",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/vanta"
+  },
+  {
+    "name": "Drata",
+    "ats": "Ashby",
+    "slug": "drata",
+    "domain": "Continuous Compliance & Audit Automation Engine",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/drata"
+  },
+  {
+    "name": "Orca Security",
+    "ats": "Greenhouse",
+    "slug": "orcasecurity",
+    "domain": "SideScanning Cloud Security & Risk Remediation",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/orcasecurity"
+  },
+  {
+    "name": "1Password",
+    "ats": "Ashby",
+    "slug": "1password",
+    "domain": "Enterprise Password & Secrets Management Cloud",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/1password"
+  },
+  {
+    "name": "Bitwarden",
+    "ats": "Greenhouse",
+    "slug": "bitwarden",
+    "domain": "Open Source Password & Credentials Vault",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/bitwarden"
+  },
+  {
+    "name": "Netskope",
+    "ats": "Greenhouse",
+    "slug": "netskope",
+    "domain": "Secure Access Service Edge (SASE) & Cloud Gateway",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/netskope"
+  },
+  {
+    "name": "SailPoint",
+    "ats": "greenhouse",
+    "slug": "sailpoint",
+    "domain": "Identity Governance & Cloud Access Security",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/sailpoint"
+  },
+  {
+    "name": "CyberArk",
+    "ats": "greenhouse",
+    "slug": "cyberark",
+    "domain": "Privileged Access Management & Credential Security",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/cyberark"
+  },
+  {
+    "name": "Tenable",
+    "ats": "greenhouse",
+    "slug": "tenable",
+    "domain": "Vulnerability Management & Exposure Defense",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/tenable"
+  },
+  {
+    "name": "Fortinet",
+    "ats": "greenhouse",
+    "slug": "fortinet",
+    "domain": "High-Performance Cybersecurity Solutions",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/fortinet"
+  },
+  {
+    "name": "Axonius",
+    "ats": "Greenhouse",
+    "slug": "axonius",
+    "domain": "Cybersecurity Asset Management & SaaS Governance",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/axonius"
+  },
+  {
+    "name": "BeyondTrust",
+    "ats": "Greenhouse",
+    "slug": "beyondtrust",
+    "domain": "Privilege Elevation & Remote Support Access",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/beyondtrust"
+  },
+  {
+    "name": "Qualys",
+    "ats": "greenhouse",
+    "slug": "qualys",
+    "domain": "Cloud-Based IT & Security Compliance Platform",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/qualys"
+  },
+  {
+    "name": "Rapid7",
+    "ats": "greenhouse",
+    "slug": "rapid7",
+    "domain": "Insight Platform & Threat Exposure Management",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/rapid7"
+  },
+  {
+    "name": "Arctic Wolf",
+    "ats": "greenhouse",
+    "slug": "arcticwolf",
+    "domain": "Managed Detection & Response SOC-as-a-Service",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/arcticwolf"
+  },
+  {
+    "name": "Huntress",
+    "ats": "Greenhouse",
+    "slug": "huntress",
+    "domain": "Managed Endpoint Detection & Threat Hunting",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/huntress"
+  },
+  {
+    "name": "Tanium",
+    "ats": "Greenhouse",
+    "slug": "tanium",
+    "domain": "Real-Time Endpoint Visibility & Control Platform",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/tanium"
+  },
+  {
+    "name": "Illumio",
+    "ats": "Ashby",
+    "slug": "illumio",
+    "domain": "Zero Trust Micro-Segmentation & Breach Containment",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/illumio"
+  },
+  {
+    "name": "Verkada",
+    "ats": "Greenhouse",
+    "slug": "verkada",
+    "domain": "Cloud Physical Security, Access Gates & Computer Vision",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/verkada"
+  },
+  {
+    "name": "Chainguard",
+    "ats": "Greenhouse",
+    "slug": "chainguard",
+    "domain": "Secure Software Supply Chain & Minimal Container Images",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/chainguard"
+  },
+  {
+    "name": "Teleport",
+    "ats": "greenhouse",
+    "slug": "teleport",
+    "domain": "Zero Trust Access Plane for SSH, Kube & Databases",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/teleport"
+  },
+  {
+    "name": "Tailscale",
+    "ats": "Greenhouse",
+    "slug": "tailscale",
+    "domain": "WireGuard-Based Zero-Config Mesh VPN Network",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/tailscale"
+  },
+  {
+    "name": "Twingate",
+    "ats": "Lever",
+    "slug": "twingate",
+    "domain": "Zero Trust Remote Network Access Solution",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.lever.co/twingate"
+  },
+  {
+    "name": "JumpCloud",
+    "ats": "Lever",
+    "slug": "jumpcloud",
+    "domain": "Cloud Directory Platform & Device Management",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.lever.co/jumpcloud"
+  },
+  {
+    "name": "Stytch",
+    "ats": "ashby",
+    "slug": "stytch",
+    "domain": "Passwordless Auth & Identity Infrastructure APIs",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/stytch"
+  },
+  {
+    "name": "Clerk",
+    "ats": "Ashby",
+    "slug": "clerk",
+    "domain": "Complete User Management & Auth for React / Next.js",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/clerk"
+  },
+  {
+    "name": "Descope",
+    "ats": "Greenhouse",
+    "slug": "descope",
+    "domain": "Drag-and-Drop Authentication & User Journey Flows",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/descope"
+  },
+  {
+    "name": "WorkOS",
+    "ats": "Ashby",
+    "slug": "workos",
+    "domain": "Single Sign-On, SCIM & Directory Sync APIs for SaaS",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/workos"
+  },
+  {
+    "name": "Skydio",
+    "ats": "Ashby",
+    "slug": "skydio",
+    "domain": "Autonomous Drone Telemetry & Computer Vision",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/skydio"
+  },
+  {
+    "name": "Nuro",
+    "ats": "Greenhouse",
+    "slug": "nuro",
+    "domain": "Autonomous On-Road Electric Delivery Vehicles",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/nuro"
+  },
+  {
+    "name": "Waymo",
+    "ats": "Greenhouse",
+    "slug": "waymo",
+    "domain": "Autonomous Robotaxi Mobility & Driving Systems",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/waymo"
+  },
+  {
+    "name": "Zoox",
+    "ats": "Lever",
+    "slug": "zoox",
+    "domain": "Purpose-Built Bi-Directional Autonomous Vehicles",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.lever.co/zoox"
+  },
+  {
+    "name": "Aurora",
+    "ats": "greenhouse",
+    "slug": "aurora",
+    "domain": "Autonomous Trucking & Self-Driving Horizon Platform",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/aurora"
+  },
+  {
+    "name": "Kodiak Robotics",
+    "ats": "Greenhouse",
+    "slug": "kodiak",
+    "domain": "Long-Haul Autonomous Trucking Technology",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/kodiak"
+  },
+  {
+    "name": "Robust AI",
+    "ats": "greenhouse",
+    "slug": "robustai",
+    "domain": "Collaborative Mobile Robots for Warehouse Logistics",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/robustai"
+  },
+  {
+    "name": "Figure AI",
+    "ats": "Greenhouse",
+    "slug": "figure",
+    "domain": "General Purpose Humanoid Robotic Systems",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/figure"
+  },
+  {
+    "name": "Apptronik",
+    "ats": "Greenhouse",
+    "slug": "apptronik",
+    "domain": "Bipedal Humanoid Robots for Commercial Logistics",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/apptronik"
+  },
+  {
+    "name": "Boston Dynamics",
+    "ats": "greenhouse",
+    "slug": "bostondynamics",
+    "domain": "Dynamic Mobile Robots (Spot, Stretch, Atlas)",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/bostondynamics"
+  },
+  {
+    "name": "Symbotic",
+    "ats": "greenhouse",
+    "slug": "symbotic",
+    "domain": "Supply Chain Automation & High-Speed Robotic Fleets",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/symbotic"
+  },
+  {
+    "name": "Outrider",
+    "ats": "Greenhouse",
+    "slug": "outrider",
+    "domain": "Autonomous Yard Truck Logistics & Distribution Yards",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/outrider"
+  },
+  {
+    "name": "Physical Intelligence",
+    "ats": "Ashby",
+    "slug": "physicalintelligence",
+    "domain": "Universal Foundation Models for Physical Robots",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/physicalintelligence"
+  },
+  {
+    "name": "Applied Intuition",
+    "ats": "greenhouse",
+    "slug": "appliedintuition",
+    "domain": "Autonomous Vehicle Simulation & Safety Validation",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/appliedintuition"
+  },
+  {
+    "name": "Samsara",
+    "ats": "Greenhouse",
+    "slug": "samsara",
+    "domain": "Connected Operations & IoT Telemetry Platform",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/samsara"
+  },
+  {
+    "name": "Motive",
+    "ats": "Greenhouse",
+    "slug": "motive",
+    "domain": "Heavy Fleet Telematics & AI Dashcam Vision",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/motive"
+  },
+  {
+    "name": "Serve Robotics",
+    "ats": "Ashby",
+    "slug": "serverobotics",
+    "domain": "Sidewalk Zero-Emission Delivery Robots",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/serverobotics"
+  },
+  {
+    "name": "Bear Robotics",
+    "ats": "greenhouse",
+    "slug": "bearrobotics",
+    "domain": "Autonomous Hospitality & Serving Mobile Robots",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/bearrobotics"
+  },
+  {
+    "name": "Locus Robotics",
+    "ats": "Greenhouse",
+    "slug": "locusrobotics",
+    "domain": "Autonomous Mobile Robots (AMRs) for Fulfillment",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/locusrobotics"
+  },
+  {
+    "name": "Starship Technologies",
+    "ats": "greenhouse",
+    "slug": "starship",
+    "domain": "Autonomous Campus & Neighborhood Food Delivery",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/starship"
+  },
+  {
+    "name": "Zipline",
+    "ats": "greenhouse",
+    "slug": "zipline",
+    "domain": "Instant Autonomous Drone Logistics & Delivery",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/zipline"
+  },
+  {
+    "name": "Wing",
+    "ats": "Greenhouse",
+    "slug": "wing",
+    "domain": "Lightweight Drone Delivery & Air Traffic Management",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/wing"
+  },
+  {
+    "name": "DroneDeploy",
+    "ats": "greenhouse",
+    "slug": "dronedeploy",
+    "domain": "Aerial Drone Mapping, Reality Capture & Photogrammetry",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/dronedeploy"
+  },
+  {
+    "name": "Gecko Robotics",
+    "ats": "greenhouse",
+    "slug": "geckorobotics",
+    "domain": "Ultrasonic Inspection Climbing Robots for Heavy Infra",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/geckorobotics"
+  },
+  {
+    "name": "SewerAI",
+    "ats": "ashby",
+    "slug": "sewerai",
+    "domain": "Computer Vision & Telemetry for Underground Sewer Pipes",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/sewerai"
+  },
+  {
+    "name": "Oscar Health",
+    "ats": "Greenhouse",
+    "slug": "oscar",
+    "domain": "Tech-Enabled Health Insurance & Virtual Care",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/oscar"
+  },
+  {
+    "name": "Tempus",
+    "ats": "greenhouse",
+    "slug": "tempus",
+    "domain": "AI Precision Medicine & Genomic Data Platforms",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/tempus"
+  },
+  {
+    "name": "Komodo Health",
+    "ats": "Greenhouse",
+    "slug": "komodohealth",
+    "domain": "Healthcare Map & Real-World Patient Journey Analytics",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/komodohealth"
+  },
+  {
+    "name": "Flatiron Health",
+    "ats": "greenhouse",
+    "slug": "flatiron",
+    "domain": "Oncology EHR & Real-World Clinical Data Science",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/flatiron"
+  },
+  {
+    "name": "Ro",
+    "ats": "Lever",
+    "slug": "ro",
+    "domain": "Direct-to-Consumer Telehealth & Digital Pharmacy",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.lever.co/ro"
+  },
+  {
+    "name": "Hims & Hers",
+    "ats": "greenhouse",
+    "slug": "hims",
+    "domain": "Multi-Specialty Telehealth & Wellness Brand",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/hims"
+  },
+  {
+    "name": "Color Health",
+    "ats": "greenhouse",
+    "slug": "color",
+    "domain": "Population Health Management & Cancer Screening",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/color"
+  },
+  {
+    "name": "Headway",
+    "ats": "Ashby",
+    "slug": "headway",
+    "domain": "National Network for Insurance-Covered Mental Health",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/headway"
+  },
+  {
+    "name": "Modern Health",
+    "ats": "Greenhouse",
+    "slug": "modernhealth",
+    "domain": "Comprehensive Global Mental Health Benefits",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/modernhealth"
+  },
+  {
+    "name": "Spring Health",
+    "ats": "greenhouse",
+    "slug": "springhealth",
+    "domain": "Precision Mental Healthcare & Behavioral Health",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/springhealth"
+  },
+  {
+    "name": "Zocdoc",
+    "ats": "Greenhouse",
+    "slug": "zocdoc",
+    "domain": "Digital Healthcare Marketplace & Appointment Booking",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/zocdoc"
+  },
+  {
+    "name": "Verily",
+    "ats": "greenhouse",
+    "slug": "verily",
+    "domain": "Precision Healthcare Software & Clinical Trials",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/verily"
+  },
+  {
+    "name": "Doximity",
+    "ats": "Greenhouse",
+    "slug": "doximity",
+    "domain": "Professional Digital Network for US Physicians",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/doximity"
+  },
+  {
+    "name": "Benchling",
+    "ats": "Ashby",
+    "slug": "benchling",
+    "domain": "R&D Cloud Platform for Biotechnology & Life Sciences",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/benchling"
+  },
+  {
+    "name": "Guardant Health",
+    "ats": "greenhouse",
+    "slug": "guardanthealth",
+    "domain": "Precision Oncology & Blood Liquid Biopsies",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/guardanthealth"
+  },
+  {
+    "name": "Veeva Systems",
+    "ats": "Lever",
+    "slug": "veeva",
+    "domain": "Industry Cloud Software for Life Sciences",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.lever.co/veeva"
+  },
+  {
+    "name": "Lyra Health",
+    "ats": "Lever",
+    "slug": "lyrahealth",
+    "domain": "Workforce Mental Health Management & Therapy",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.lever.co/lyrahealth"
+  },
+  {
+    "name": "Headspace",
+    "ats": "greenhouse",
+    "slug": "headspace",
+    "domain": "Digital Mindfulness, Meditation & Mental Health",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/headspace"
+  },
+  {
+    "name": "Talkspace",
+    "ats": "Greenhouse",
+    "slug": "talkspace",
+    "domain": "Online Therapy & Tele-Behavioral Healthcare",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/talkspace"
+  },
+  {
+    "name": "K Health",
+    "ats": "greenhouse",
+    "slug": "khealth",
+    "domain": "AI Clinical Symptom Checker & 24/7 Virtual Primary Care",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/khealth"
+  },
+  {
+    "name": "Cityblock Health",
+    "ats": "greenhouse",
+    "slug": "cityblock",
+    "domain": "Value-Based Healthcare for Underserved Populations",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/cityblock"
+  },
+  {
+    "name": "Oak Street Health",
+    "ats": "greenhouse",
+    "slug": "oakstreethealth",
+    "domain": "Primary Care Centers for Adults on Medicare",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/oakstreethealth"
+  },
+  {
+    "name": "Carbon Health",
+    "ats": "greenhouse",
+    "slug": "carbonhealth",
+    "domain": "Modern Omnichannel Urgent & Primary Healthcare",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/carbonhealth"
+  },
+  {
+    "name": "One Medical",
+    "ats": "Greenhouse",
+    "slug": "onemedical",
+    "domain": "Membership-Based Technology-Powered Primary Care",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/onemedical"
+  },
+  {
+    "name": "Cedar",
+    "ats": "Ashby",
+    "slug": "cedar",
+    "domain": "Healthcare Patient Financial Engagement & Billing",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/cedar"
+  },
+  {
+    "name": "Waystar",
+    "ats": "greenhouse",
+    "slug": "waystar",
+    "domain": "Healthcare Revenue Cycle & Medical Claims Tech",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/waystar"
+  },
+  {
+    "name": "Innovaccer",
+    "ats": "greenhouse",
+    "slug": "innovaccer",
+    "domain": "Healthcare Data Activation Platform & Unified Cloud",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/innovaccer"
+  },
+  {
+    "name": "Health Catalyst",
+    "ats": "greenhouse",
+    "slug": "healthcatalyst",
+    "domain": "Data Analytics & Clinical Decision Support",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/healthcatalyst"
+  },
+  {
+    "name": "Clarify Health",
+    "ats": "Lever",
+    "slug": "clarifyhealth",
+    "domain": "Enterprise Analytics for Healthcare Payers & Providers",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.lever.co/clarifyhealth"
+  },
+  {
+    "name": "PathAI",
+    "ats": "Greenhouse",
+    "slug": "pathai",
+    "domain": "AI-Powered Pathology Diagnosis & Biomarker Discovery",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/pathai"
+  },
+  {
+    "name": "Viz.ai",
+    "ats": "greenhouse",
+    "slug": "vizai",
+    "domain": "AI Stroke Detection & Care Coordination Software",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/vizai"
+  },
+  {
+    "name": "Recursion",
+    "ats": "greenhouse",
+    "slug": "recursion",
+    "domain": "Industrialized High-Throughput Drug Discovery",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/recursion"
+  },
+  {
+    "name": "Insitro",
+    "ats": "Ashby",
+    "slug": "insitro",
+    "domain": "Machine Learning for Therapeutic Discovery",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/insitro"
+  },
+  {
+    "name": "Grail",
+    "ats": "greenhouse",
+    "slug": "grail",
+    "domain": "Galleri Multi-Cancer Early Detection Blood Test",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/grail"
+  },
+  {
+    "name": "Invitae",
+    "ats": "greenhouse",
+    "slug": "invitae",
+    "domain": "Medical Genetic Testing & Diagnostic Panels",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/invitae"
+  },
+  {
+    "name": "Shopify",
+    "ats": "greenhouse",
+    "slug": "shopify",
+    "domain": "Global Multi-Channel Commerce & Storefront Platform",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/shopify"
+  },
+  {
+    "name": "Instacart",
+    "ats": "Greenhouse",
+    "slug": "instacart",
+    "domain": "Grocery Technology & On-Demand Delivery Network",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/instacart"
+  },
+  {
+    "name": "DoorDash",
+    "ats": "greenhouse",
+    "slug": "doordash",
+    "domain": "Local Logistics & Food / Convenience Delivery",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/doordash"
+  },
+  {
+    "name": "Faire",
+    "ats": "Greenhouse",
+    "slug": "faire",
+    "domain": "Online Wholesale Marketplace for Independent Retailers",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/faire"
+  },
+  {
+    "name": "Etsy",
+    "ats": "greenhouse",
+    "slug": "etsy",
+    "domain": "Global Marketplace for Unique & Creative Handcrafted Goods",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/etsy"
+  },
+  {
+    "name": "Wayfair",
+    "ats": "greenhouse",
+    "slug": "wayfair",
+    "domain": "E-Commerce for Home Goods, Furniture & Logistics",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/wayfair"
+  },
+  {
+    "name": "Chewy",
+    "ats": "greenhouse",
+    "slug": "chewy",
+    "domain": "Pet Food, Pharmacy & Supply E-Commerce Cloud",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/chewy"
+  },
+  {
+    "name": "Carvana",
+    "ats": "Greenhouse",
+    "slug": "carvana",
+    "domain": "Online Used Car Auto Retail & Vending Towers",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/carvana"
+  },
+  {
+    "name": "Coupang",
+    "ats": "Greenhouse",
+    "slug": "coupang",
+    "domain": "End-to-End E-Commerce & Rocket Delivery Tech",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/coupang"
+  },
+  {
+    "name": "Whatnot",
+    "ats": "ashby",
+    "slug": "whatnot",
+    "domain": "Live Stream Shopping & Collectibles Marketplace",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/whatnot"
+  },
+  {
+    "name": "StockX",
+    "ats": "Greenhouse",
+    "slug": "stockx",
+    "domain": "Live 'Bid/Ask' Marketplace for Sneakers & Apparel",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/stockx"
+  },
+  {
+    "name": "Goat",
+    "ats": "greenhouse",
+    "slug": "goat",
+    "domain": "Global Platform for Verified Sneakers & Luxury Apparel",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/goat"
+  },
+  {
+    "name": "Redfin",
+    "ats": "greenhouse",
+    "slug": "redfin",
+    "domain": "Technology-Powered Real Estate Brokerage Platform",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/redfin"
+  },
+  {
+    "name": "Zillow",
+    "ats": "greenhouse",
+    "slug": "zillow",
+    "domain": "Real Estate Marketplace & Home Valuation Tech",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/zillow"
+  },
+  {
+    "name": "Opendoor",
+    "ats": "greenhouse",
+    "slug": "opendoor",
+    "domain": "Digital Platform for Residential Real Estate iBuying",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/opendoor"
+  },
+  {
+    "name": "Compass",
+    "ats": "greenhouse",
+    "slug": "compass",
+    "domain": "Tech-Driven Real Estate Platform for Agents",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/compass"
+  },
+  {
+    "name": "OfferUp",
+    "ats": "Greenhouse",
+    "slug": "offerup",
+    "domain": "Mobile Marketplace for Local Buyers & Sellers",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/offerup"
+  },
+  {
+    "name": "Poshmark",
+    "ats": "Ashby",
+    "slug": "poshmark",
+    "domain": "Social Commerce Marketplace for Fashion & Decor",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/poshmark"
+  },
+  {
+    "name": "The RealReal",
+    "ats": "greenhouse",
+    "slug": "therealreal",
+    "domain": "Authenticated Consignment for Luxury Resale Goods",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/therealreal"
+  },
+  {
+    "name": "ThredUp",
+    "ats": "greenhouse",
+    "slug": "thredup",
+    "domain": "Online Consignment & Resale-as-a-Service Platform",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/thredup"
+  },
+  {
+    "name": "Stitch Fix",
+    "ats": "Greenhouse",
+    "slug": "stitchfix",
+    "domain": "Personalized Styling Service Driven by Data Science",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/stitchfix"
+  },
+  {
+    "name": "Warby Parker",
+    "ats": "greenhouse",
+    "slug": "warbyparker",
+    "domain": "Omnichannel Eyewear & Vision Technology",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/warbyparker"
+  },
+  {
+    "name": "Gopuff",
+    "ats": "Lever",
+    "slug": "gopuff",
+    "domain": "Instant Needs & Micro-Fulfillment Delivery Cloud",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.lever.co/gopuff"
+  },
+  {
+    "name": "Shipt",
+    "ats": "greenhouse",
+    "slug": "shipt",
+    "domain": "Same-Day Delivery Marketplace for Household Essentials",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/shipt"
+  },
+  {
+    "name": "Grubhub",
+    "ats": "greenhouse",
+    "slug": "grubhub",
+    "domain": "Online Food Ordering & Delivery Network",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/grubhub"
+  },
+  {
+    "name": "SeatGeek",
+    "ats": "Greenhouse",
+    "slug": "seatgeek",
+    "domain": "Mobile-Focused Live Event Ticketing Platform",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/seatgeek"
+  },
+  {
+    "name": "StubHub",
+    "ats": "greenhouse",
+    "slug": "stubhub",
+    "domain": "Secondary Ticket Exchange for Sports & Concerts",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/stubhub"
+  },
+  {
+    "name": "Eventbrite",
+    "ats": "greenhouse",
+    "slug": "eventbrite",
+    "domain": "Global Self-Service Ticketing & Experience Platform",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/eventbrite"
+  },
+  {
+    "name": "Rover",
+    "ats": "Lever",
+    "slug": "rover",
+    "domain": "Online Marketplace for Loving Pet Care Services",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.lever.co/rover"
+  },
+  {
+    "name": "Thumbtack",
+    "ats": "Ashby",
+    "slug": "thumbtack",
+    "domain": "Home Services Marketplace & Local Professional Match",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/thumbtack"
+  },
+  {
+    "name": "Flexport",
+    "ats": "Greenhouse",
+    "slug": "flexport",
+    "domain": "Global Maritime Logistics & Ocean Freight Infra",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/flexport"
+  },
+  {
+    "name": "project44",
+    "ats": "Greenhouse",
+    "slug": "project44",
+    "domain": "Global Supply Chain Visibility & Real-Time Tracking",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/project44"
+  },
+  {
+    "name": "Trimble",
+    "ats": "greenhouse",
+    "slug": "trimble",
+    "domain": "Agricultural & Heavy Construction GNSS Telemetry",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/trimble"
+  },
+  {
+    "name": "DAT Freight & Analytics",
+    "ats": "greenhouse",
+    "slug": "dat",
+    "domain": "North American Freight Load Board & Spot Rates",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/dat"
+  },
+  {
+    "name": "Roadie",
+    "ats": "Greenhouse",
+    "slug": "roadie",
+    "domain": "Crowdsourced On-the-Way Same-Day Delivery Cloud",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/roadie"
+  },
+  {
+    "name": "Flock Freight",
+    "ats": "greenhouse",
+    "slug": "flockfreight",
+    "domain": "Algorithmic Shared Truckload (STL) Freight Tech",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/flockfreight"
+  },
+  {
+    "name": "ShipBob",
+    "ats": "greenhouse",
+    "slug": "shipbob",
+    "domain": "Global Omnichannel Fulfillment Platform for E-Commerce",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/shipbob"
+  },
+  {
+    "name": "Turvo",
+    "ats": "Lever",
+    "slug": "turvo",
+    "domain": "Collaborative Cloud Logistics & Shipper Networks",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.lever.co/turvo"
+  },
+  {
+    "name": "ServiceTitan",
+    "ats": "greenhouse",
+    "slug": "servicetitan",
+    "domain": "Commercial Plumbing, HVAC & Electrical Dispatch",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/servicetitan"
+  },
+  {
+    "name": "Rubicon",
+    "ats": "greenhouse",
+    "slug": "rubicon",
+    "domain": "Smart Waste Hauling & Commercial Dumpster Routing",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/rubicon"
+  },
+  {
+    "name": "Storable",
+    "ats": "Greenhouse",
+    "slug": "storable",
+    "domain": "Self-Storage Facility Management & Gate Telemetry",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/storable"
+  },
+  {
+    "name": "ParkMobile",
+    "ats": "greenhouse",
+    "slug": "parkmobile",
+    "domain": "Municipal Parking Meter Streams & Mobile Payments",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/parkmobile"
+  },
+  {
+    "name": "FlashParking",
+    "ats": "greenhouse",
+    "slug": "flashparking",
+    "domain": "Cloud Parking Asset Architecture & Gate Access",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/flashparking"
+  },
+  {
+    "name": "Urgently",
+    "ats": "greenhouse",
+    "slug": "urgently",
+    "domain": "Digital Roadside Assistance & Towing Dispatch Engine",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/urgently"
+  },
+  {
+    "name": "Pushpay",
+    "ats": "Greenhouse",
+    "slug": "pushpay",
+    "domain": "High-Volume Non-Profit & Faith Donation Processing",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/pushpay"
+  },
+  {
+    "name": "DRB Systems",
+    "ats": "greenhouse",
+    "slug": "drbsystems",
+    "domain": "Automated Car Wash Tunnel Telemetry & POS Systems",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/drbsystems"
+  },
+  {
+    "name": "Cantaloupe",
+    "ats": "greenhouse",
+    "slug": "cantaloupe",
+    "domain": "Smart Vending Machine Telemetry & Micro-Markets",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/cantaloupe"
+  },
+  {
+    "name": "Cloudbeds",
+    "ats": "Greenhouse",
+    "slug": "cloudbeds",
+    "domain": "Hospitality Property Management & Reservation Engine",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/cloudbeds"
+  },
+  {
+    "name": "SevenRooms",
+    "ats": "greenhouse",
+    "slug": "sevenrooms",
+    "domain": "Restaurant Guest Experience & Table Management",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/sevenrooms"
+  },
+  {
+    "name": "Mews",
+    "ats": "greenhouse",
+    "slug": "mews",
+    "domain": "Cloud Hospitality Operating System & Automation",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/mews"
+  },
+  {
+    "name": "Gather",
+    "ats": "greenhouse",
+    "slug": "gather",
+    "domain": "Mortuary & Funeral Operations Case Management",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/gather"
+  },
+  {
+    "name": "Parting Pro",
+    "ats": "greenhouse",
+    "slug": "partingpro",
+    "domain": "Death Care & Cremation E-Commerce Infra",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/partingpro"
+  },
+  {
+    "name": "Duetto",
+    "ats": "greenhouse",
+    "slug": "duetto",
+    "domain": "Casino & Hotel Dynamic Pricing Optimization",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/duetto"
+  },
+  {
+    "name": "Jobber",
+    "ats": "Ashby",
+    "slug": "jobber",
+    "domain": "Home Services Operations & Invoicing Software",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/jobber"
+  },
+  {
+    "name": "Housecall Pro",
+    "ats": "greenhouse",
+    "slug": "housecallpro",
+    "domain": "Field Service Automation & Mobile Billing for Pros",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/housecallpro"
+  },
+  {
+    "name": "Subsplash",
+    "ats": "Greenhouse",
+    "slug": "subsplash",
+    "domain": "Faith Organization Media Streaming & Giving Portals",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/subsplash"
+  },
+  {
+    "name": "FourKites",
+    "ats": "Greenhouse",
+    "slug": "fourkites",
+    "domain": "Supply Chain Real-Time Tracking Across Ocean & Rail",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/fourkites"
+  },
+  {
+    "name": "EasyPost",
+    "ats": "greenhouse",
+    "slug": "easypost",
+    "domain": "Flexible Shipping APIs for Multi-Carrier Label Buying",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/easypost"
+  },
+  {
+    "name": "Shippo",
+    "ats": "greenhouse",
+    "slug": "shippo",
+    "domain": "E-Commerce Multi-Carrier Shipping API Platform",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/shippo"
+  },
+  {
+    "name": "Zoom",
+    "ats": "greenhouse",
+    "slug": "zoom",
+    "domain": "Enterprise Video Collaboration & AI Workspaces",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/zoom"
+  },
+  {
+    "name": "Twilio",
+    "ats": "Greenhouse",
+    "slug": "twilio",
+    "domain": "Customer Engagement & Programmable Telecom APIs",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/twilio"
+  },
+  {
+    "name": "Box",
+    "ats": "greenhouse",
+    "slug": "box",
+    "domain": "Intelligent Enterprise Content Management & Security",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/box"
+  },
+  {
+    "name": "Dropbox",
+    "ats": "Greenhouse",
+    "slug": "dropbox",
+    "domain": "Smart Workspace & Distributed Cloud File Systems",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/dropbox"
+  },
+  {
+    "name": "DocuSign",
+    "ats": "greenhouse",
+    "slug": "docusign",
+    "domain": "Electronic Signature & Intelligent Agreement Cloud",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/docusign"
+  },
+  {
+    "name": "HubSpot",
+    "ats": "greenhouse",
+    "slug": "hubspot",
+    "domain": "Inbound Marketing, Sales CRM & Customer Service Hub",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/hubspot"
+  },
+  {
+    "name": "Zendesk",
+    "ats": "greenhouse",
+    "slug": "zendesk",
+    "domain": "Customer Support Ticketing & Service Automation",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/zendesk"
+  },
+  {
+    "name": "Braze",
+    "ats": "Greenhouse",
+    "slug": "braze",
+    "domain": "Real-Time Customer Engagement & Mobile Messaging",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/braze"
+  },
+  {
+    "name": "Klaviyo",
+    "ats": "Greenhouse",
+    "slug": "klaviyo",
+    "domain": "Data-Driven Marketing Automation for E-Commerce",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/klaviyo"
+  },
+  {
+    "name": "Iterable",
+    "ats": "Greenhouse",
+    "slug": "iterable",
+    "domain": "Cross-Channel Marketing & Customer Journey Engine",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/iterable"
+  },
+  {
+    "name": "Sprinklr",
+    "ats": "greenhouse",
+    "slug": "sprinklr",
+    "domain": "Unified Customer Experience Management (Unified-CXM)",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/sprinklr"
+  },
+  {
+    "name": "Freshworks",
+    "ats": "greenhouse",
+    "slug": "freshworks",
+    "domain": "Modern SaaS for IT Service Management (Freshservice)",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/freshworks"
+  },
+  {
+    "name": "Roblox",
+    "ats": "Greenhouse",
+    "slug": "roblox",
+    "domain": "Immersive 3D Metaverse Platform & Game Engine",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/roblox"
+  },
+  {
+    "name": "Unity",
+    "ats": "greenhouse",
+    "slug": "unity",
+    "domain": "Real-Time 3D Game Engine & Simulation Tools",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/unity"
+  },
+  {
+    "name": "Epic Games",
+    "ats": "Greenhouse",
+    "slug": "epicgames",
+    "domain": "Unreal Engine & Interactive Entertainment",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/epicgames"
+  },
+  {
+    "name": "Discord",
+    "ats": "Greenhouse",
+    "slug": "discord",
+    "domain": "Real-Time Voice, Video & Text Communication Cloud",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/discord"
+  },
+  {
+    "name": "Twitch",
+    "ats": "Greenhouse",
+    "slug": "twitch",
+    "domain": "Live Streaming Video Infrastructure & Community",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/twitch"
+  },
+  {
+    "name": "Reddit",
+    "ats": "Greenhouse",
+    "slug": "reddit",
+    "domain": "Social News Aggregation, Discussion & Community Webs",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/reddit"
+  },
+  {
+    "name": "Pinterest",
+    "ats": "Greenhouse",
+    "slug": "pinterest",
+    "domain": "Visual Discovery Engine & Computer Vision Graphs",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/pinterest"
+  },
+  {
+    "name": "Snap",
+    "ats": "greenhouse",
+    "slug": "snap",
+    "domain": "Augmented Reality Camera & Visual Messaging Platform",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/snap"
+  },
+  {
+    "name": "Yelp",
+    "ats": "greenhouse",
+    "slug": "yelp",
+    "domain": "Local Business Discovery, Reviews & Reservations",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/yelp"
+  },
+  {
+    "name": "Nextdoor",
+    "ats": "Greenhouse",
+    "slug": "nextdoor",
+    "domain": "Hyperlocal Neighborhood Social Networking Platform",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/nextdoor"
+  },
+  {
+    "name": "Bumble",
+    "ats": "greenhouse",
+    "slug": "bumble",
+    "domain": "Social Connection, Dating & Networking Platform",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/bumble"
+  },
+  {
+    "name": "Duolingo",
+    "ats": "Greenhouse",
+    "slug": "duolingo",
+    "domain": "Gamified Language Learning & AI Assessment",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/duolingo"
+  },
+  {
+    "name": "Coursera",
+    "ats": "Greenhouse",
+    "slug": "coursera",
+    "domain": "Open Online Education Platform & Degree Programs",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/coursera"
+  },
+  {
+    "name": "Udemy",
+    "ats": "Greenhouse",
+    "slug": "udemy",
+    "domain": "Global Marketplace for Online Teaching & Learning",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/udemy"
+  },
+  {
+    "name": "Guild Education",
+    "ats": "greenhouse",
+    "slug": "guildeducation",
+    "domain": "Workforce Education & Career Advancement Tech",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/guildeducation"
+  },
+  {
+    "name": "Medium",
+    "ats": "greenhouse",
+    "slug": "medium",
+    "domain": "Open Digital Publishing Platform & Reading Network",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/medium"
+  },
+  {
+    "name": "Substack",
+    "ats": "Ashby",
+    "slug": "substack",
+    "domain": "Independent Newsletter & Direct Creator Subscriptions",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/substack"
+  },
+  {
+    "name": "Patreon",
+    "ats": "Ashby",
+    "slug": "patreon",
+    "domain": "Creator Monetization & Membership Community Tools",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/patreon"
+  },
+  {
+    "name": "Spotify",
+    "ats": "Lever",
+    "slug": "spotify",
+    "domain": "Digital Audio Streaming & Recommendation Systems",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.lever.co/spotify"
+  },
+  {
+    "name": "Sonos",
+    "ats": "greenhouse",
+    "slug": "sonos",
+    "domain": "Multi-Room Wireless Smart Sound Systems",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/sonos"
+  },
+  {
+    "name": "Roku",
+    "ats": "Greenhouse",
+    "slug": "roku",
+    "domain": "Streaming TV Hardware & Digital Ad Platform",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/roku"
+  },
+  {
+    "name": "Cruise",
+    "ats": "greenhouse",
+    "slug": "getcruise",
+    "domain": "Self-Driving Electric Robotaxi Fleets",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/getcruise"
+  },
+  {
+    "name": "May Mobility",
+    "ats": "Greenhouse",
+    "slug": "maymobility",
+    "domain": "Autonomous Transit Shuttles & Vehicle Fleets",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/maymobility"
+  },
+  {
+    "name": "Torc Robotics",
+    "ats": "Greenhouse",
+    "slug": "torcrobotics",
+    "domain": "Commercial Autonomous Heavy Trucking",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/torcrobotics"
+  },
+  {
+    "name": "Gatik",
+    "ats": "lever",
+    "slug": "gatik",
+    "domain": "Autonomous Middle-Mile B2B Delivery Logistics",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.lever.co/gatik"
+  },
+  {
+    "name": "Waabi",
+    "ats": "Lever",
+    "slug": "waabi",
+    "domain": "Next-Generation AI for Autonomous Trucking",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.lever.co/waabi"
+  },
+  {
+    "name": "Joby Aviation",
+    "ats": "greenhouse",
+    "slug": "jobyaviation",
+    "domain": "Electric Aerial Air Taxi Infrastructure",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/jobyaviation"
+  },
+  {
+    "name": "Archer Aviation",
+    "ats": "greenhouse",
+    "slug": "archeraviation",
+    "domain": "Electric Vertical Takeoff & Landing Aircraft",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/archeraviation"
+  },
+  {
+    "name": "Beta Technologies",
+    "ats": "greenhouse",
+    "slug": "betatechnologies",
+    "domain": "Electric Aerospace & Charging Infrastructure",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/betatechnologies"
+  },
+  {
+    "name": "Reliable Robotics",
+    "ats": "greenhouse",
+    "slug": "reliablerobotics",
+    "domain": "Autonomous Flight Systems for Commercial Cargo",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/reliablerobotics"
+  },
+  {
+    "name": "Pyka",
+    "ats": "Lever",
+    "slug": "pyka",
+    "domain": "Autonomous Electric Aircraft for Agriculture & Cargo",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.lever.co/pyka"
+  },
+  {
+    "name": "Teal Drones",
+    "ats": "greenhouse",
+    "slug": "tealdrones",
+    "domain": "Defense & Commercial Edge Drone Systems",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/tealdrones"
+  },
+  {
+    "name": "BRINC Drones",
+    "ats": "greenhouse",
+    "slug": "brincdrones",
+    "domain": "Tactical Drone Systems & Public Safety Tech",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/brincdrones"
+  },
+  {
+    "name": "Coco Delivery",
+    "ats": "Ashby",
+    "slug": "cocodelivery",
+    "domain": "Remote-Piloted Sidewalk Delivery Vehicles",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/cocodelivery"
+  },
+  {
+    "name": "Cerebras Systems",
+    "ats": "greenhouse",
+    "slug": "cerebrassystems",
+    "domain": "Wafer-Scale AI Compute Processors",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/cerebrassystems"
+  },
+  {
+    "name": "SambaNova Systems",
+    "ats": "Greenhouse",
+    "slug": "sambanovasystems",
+    "domain": "Generative AI Cloud & Reconfigurable Dataflow",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/sambanovasystems"
+  },
+  {
+    "name": "Tenstorrent",
+    "ats": "Greenhouse",
+    "slug": "tenstorrent",
+    "domain": "RISC-V High-Performance AI Processor Silicon",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/tenstorrent"
+  },
+  {
+    "name": "SiFive",
+    "ats": "greenhouse",
+    "slug": "sifive",
+    "domain": "Commercial RISC-V Silicon Processor IP",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/sifive"
+  },
+  {
+    "name": "Lightmatter",
+    "ats": "Greenhouse",
+    "slug": "lightmatter",
+    "domain": "Photonic Interconnect & Optical AI Compute",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/lightmatter"
+  },
+  {
+    "name": "Celestial AI",
+    "ats": "greenhouse",
+    "slug": "celestialai",
+    "domain": "Photonic Fabric & Optical Memory Interconnect",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/celestialai"
+  },
+  {
+    "name": "Ayar Labs",
+    "ats": "greenhouse",
+    "slug": "ayarlabs",
+    "domain": "Silicon Photonics for Chip-to-Chip Bandwidth",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/ayarlabs"
+  },
+  {
+    "name": "Untether AI",
+    "ats": "greenhouse",
+    "slug": "untetherai",
+    "domain": "At-Memory Compute Architecture for Neural Nets",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/untetherai"
+  },
+  {
+    "name": "Jane Street",
+    "ats": "Greenhouse",
+    "slug": "janestreet",
+    "domain": "Quantitative Trading & Distributed OCaml Systems",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/janestreet"
+  },
+  {
+    "name": "Citadel Securities",
+    "ats": "greenhouse",
+    "slug": "citadelsecurities",
+    "domain": "Global Market Maker & High-Frequency Trading",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/citadelsecurities"
+  },
+  {
+    "name": "Two Sigma",
+    "ats": "greenhouse",
+    "slug": "twosigma",
+    "domain": "Data-Driven Systematic Investment & AI Finance",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/twosigma"
+  },
+  {
+    "name": "Hudson River Trading",
+    "ats": "greenhouse",
+    "slug": "hudsonrivertrading",
+    "domain": "Multi-Asset Class High-Frequency Trading",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/hudsonrivertrading"
+  },
+  {
+    "name": "DRW",
+    "ats": "greenhouse",
+    "slug": "drw",
+    "domain": "Principal Trading & Market Making Technology",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/drw"
+  },
+  {
+    "name": "Optiver",
+    "ats": "greenhouse",
+    "slug": "optiver",
+    "domain": "Global Proprietary Trading & Market Making",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/optiver"
+  },
+  {
+    "name": "Flow Traders",
+    "ats": "Greenhouse",
+    "slug": "flowtraders",
+    "domain": "Global Technology-Enabled ETP Market Maker",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/flowtraders"
+  },
+  {
+    "name": "IMC Trading",
+    "ats": "greenhouse",
+    "slug": "imctrading",
+    "domain": "Algorithmic Trading & Low-Latency Execution",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/imctrading"
+  },
+  {
+    "name": "Akuna Capital",
+    "ats": "Greenhouse",
+    "slug": "akunacapital",
+    "domain": "Derivatives Trading & Ultra-Low-Latency C++",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/akunacapital"
+  },
+  {
+    "name": "Virtu Financial",
+    "ats": "greenhouse",
+    "slug": "virtufinancial",
+    "domain": "Electronic Trading & Execution Services",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/virtufinancial"
+  },
+  {
+    "name": "Lemonade",
+    "ats": "Ashby",
+    "slug": "lemonade",
+    "domain": "AI-Driven Insurance Underwriting & Claims",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/lemonade"
+  },
+  {
+    "name": "Root Insurance",
+    "ats": "greenhouse",
+    "slug": "rootinsurance",
+    "domain": "Mobile Telematics-Based Auto Insurance",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/rootinsurance"
+  },
+  {
+    "name": "Kin Insurance",
+    "ats": "Ashby",
+    "slug": "kin",
+    "domain": "Direct-to-Consumer Homeowners Insurance Tech",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/kin"
+  },
+  {
+    "name": "Next Insurance",
+    "ats": "greenhouse",
+    "slug": "nextinsurance",
+    "domain": "Small Business Commercial Insurance Cloud",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/nextinsurance"
+  },
+  {
+    "name": "Coalition",
+    "ats": "Greenhouse",
+    "slug": "coalition",
+    "domain": "Cyber Insurance & Active Risk Assessment",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/coalition"
+  },
+  {
+    "name": "At-Bay",
+    "ats": "greenhouse",
+    "slug": "atbay",
+    "domain": "Cyber Insurance & Digital Risk Management",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/atbay"
+  },
+  {
+    "name": "Pure Storage",
+    "ats": "Greenhouse",
+    "slug": "purestorage",
+    "domain": "All-Flash Enterprise Cloud Data Storage",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/purestorage"
+  },
+  {
+    "name": "Nutanix",
+    "ats": "greenhouse",
+    "slug": "nutanix",
+    "domain": "Hyperconverged Cloud Infrastructure Software",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/nutanix"
+  },
+  {
+    "name": "Arista Networks",
+    "ats": "greenhouse",
+    "slug": "aristanetworks",
+    "domain": "Cognitive Cloud Networking & High-Speed Switches",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/aristanetworks"
+  },
+  {
+    "name": "F5 Networks",
+    "ats": "greenhouse",
+    "slug": "f5",
+    "domain": "Application Delivery & Multi-Cloud Security",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/f5"
+  },
+  {
+    "name": "Workday",
+    "ats": "greenhouse",
+    "slug": "workday",
+    "domain": "Enterprise Cloud Applications for Finance and HR",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/workday"
+  },
+  {
+    "name": "ServiceNow",
+    "ats": "greenhouse",
+    "slug": "servicenow",
+    "domain": "Cloud Digital Workflows & Enterprise Automation",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/servicenow"
+  },
+  {
+    "name": "Autodesk",
+    "ats": "greenhouse",
+    "slug": "autodesk",
+    "domain": "Design, Engineering & 3D Software Systems",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/autodesk"
+  },
+  {
+    "name": "Adobe",
+    "ats": "greenhouse",
+    "slug": "adobe",
+    "domain": "Creative Cloud, Document Cloud & Experience Cloud",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/adobe"
+  },
+  {
+    "name": "Atlassian",
+    "ats": "greenhouse",
+    "slug": "atlassian",
+    "domain": "Jira, Confluence & Dev Team Collaboration Tools",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/atlassian"
+  },
+  {
+    "name": "Synopsys",
+    "ats": "greenhouse",
+    "slug": "synopsys",
+    "domain": "Electronic Design Automation & Silicon Design IP",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/synopsys"
+  },
+  {
+    "name": "Cadence Design Systems",
+    "ats": "greenhouse",
+    "slug": "cadence",
+    "domain": "Computational Software for Intelligent System Design",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/cadence"
+  },
+  {
+    "name": "Ansys",
+    "ats": "greenhouse",
+    "slug": "ansys",
+    "domain": "Engineering Simulation & Physics Modeling Software",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/ansys"
+  },
+  {
+    "name": "PTC",
+    "ats": "greenhouse",
+    "slug": "ptc",
+    "domain": "Computer-Aided Design & Industrial IoT Software",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/ptc"
+  },
+  {
+    "name": "10x Genomics",
+    "ats": "greenhouse",
+    "slug": "10xgenomics",
+    "domain": "Single-Cell Biology & Spatial Genomic Tools",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/10xgenomics"
+  },
+  {
+    "name": "Pacific Biosciences",
+    "ats": "greenhouse",
+    "slug": "pacb",
+    "domain": "Long-Read Sequencing Systems & Genomics",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/pacb"
+  },
+  {
+    "name": "Element Biosciences",
+    "ats": "Greenhouse",
+    "slug": "elementbiosciences",
+    "domain": "Modular Benchtop DNA Sequencing Technologies",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/elementbiosciences"
+  },
+  {
+    "name": "Adaptive Biotechnologies",
+    "ats": "Greenhouse",
+    "slug": "adaptivebiotechnologies",
+    "domain": "Immune Medicine & T-Cell Receptor Profiling",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/adaptivebiotechnologies"
+  },
+  {
+    "name": "Natera",
+    "ats": "Greenhouse",
+    "slug": "natera",
+    "domain": "Cell-Free DNA Testing & Non-Invasive Diagnostics",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/natera"
+  },
+  {
+    "name": "CareDx",
+    "ats": "greenhouse",
+    "slug": "caredx",
+    "domain": "Transplant Patient Diagnostics & Surveillance Tech",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/caredx"
+  },
+  {
+    "name": "Exact Sciences",
+    "ats": "greenhouse",
+    "slug": "exactsciences",
+    "domain": "Cancer Screening & Diagnostic Tests (Cologuard)",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/exactsciences"
+  },
+  {
+    "name": "Personalis",
+    "ats": "greenhouse",
+    "slug": "personalis",
+    "domain": "Advanced Cancer Genomic Sequencing for Precision Med",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/personalis"
+  },
+  {
+    "name": "Seer",
+    "ats": "Greenhouse",
+    "slug": "seer",
+    "domain": "Unbiased Deep Proteomics & Biomarker Discovery",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/seer"
+  },
+  {
+    "name": "Quantum-Si",
+    "ats": "greenhouse",
+    "slug": "quantumsi",
+    "domain": "Next-Generation Semiconductor Proteomics Sequencing",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/quantumsi"
+  },
+  {
+    "name": "Olink Proteomics",
+    "ats": "greenhouse",
+    "slug": "olink",
+    "domain": "Targeted Protein Biomarker Discovery Platforms",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/olink"
+  },
+  {
+    "name": "Quanterix",
+    "ats": "greenhouse",
+    "slug": "quanterix",
+    "domain": "Ultra-Sensitive Single-Molecule Digital Immunoassays",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/quanterix"
+  },
+  {
+    "name": "Electronic Arts",
+    "ats": "greenhouse",
+    "slug": "ea",
+    "domain": "Interactive Entertainment & Game Engine Studios",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/ea"
+  },
+  {
+    "name": "Take-Two Interactive",
+    "ats": "Greenhouse",
+    "slug": "taketwo",
+    "domain": "Global Interactive Video Game Publishing",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/taketwo"
+  },
+  {
+    "name": "Riot Games",
+    "ats": "Greenhouse",
+    "slug": "riotgames",
+    "domain": "Player-Focused Competitive Game Development",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/riotgames"
+  },
+  {
+    "name": "Niantic",
+    "ats": "greenhouse",
+    "slug": "niantic",
+    "domain": "Augmented Reality Platforms & Geospatial Gaming",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/niantic"
+  },
+  {
+    "name": "Scopely",
+    "ats": "Greenhouse",
+    "slug": "scopely",
+    "domain": "Interactive Social Mobile Gaming & Live Services",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/scopely"
+  },
+  {
+    "name": "Playtika",
+    "ats": "greenhouse",
+    "slug": "playtika",
+    "domain": "Data-Driven Casual & Casino Social Mobile Games",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/playtika"
+  },
+  {
+    "name": "Tinder",
+    "ats": "Lever",
+    "slug": "matchgroup",
+    "domain": "Geo-Social Matchmaking & Real-Time Discovery",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.lever.co/matchgroup"
+  },
+  {
+    "name": "Hinge",
+    "ats": "greenhouse",
+    "slug": "hinge",
+    "domain": "Relationship-Focused Social Connection App",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/hinge"
+  },
+  {
+    "name": "OpenGov",
+    "ats": "Ashby",
+    "slug": "opengov",
+    "domain": "Cloud ERP & Budgeting Software for Government",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/opengov"
+  },
+  {
+    "name": "Granular",
+    "ats": "greenhouse",
+    "slug": "granular",
+    "domain": "Farm Management Software & Agronomy Data",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/granular"
+  },
+  {
+    "name": "Farmer's Business Network",
+    "ats": "greenhouse",
+    "slug": "fbn",
+    "domain": "AgTech Data Platform & Farm Commerce",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/fbn"
+  },
+  {
+    "name": "Indigo Ag",
+    "ats": "greenhouse",
+    "slug": "indigoag",
+    "domain": "Biological & Digital Sustainability Agriculture",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/indigoag"
+  },
+  {
+    "name": "Bowery Farming",
+    "ats": "greenhouse",
+    "slug": "boweryfarming",
+    "domain": "Vertical Smart Farming & Autonomous Growing",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/boweryfarming"
+  },
+  {
+    "name": "Plenty",
+    "ats": "greenhouse",
+    "slug": "plenty",
+    "domain": "Indoor Vertical Agriculture & Machine Vision Farming",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/plenty"
+  },
+  {
+    "name": "Sweetgreen",
+    "ats": "Greenhouse",
+    "slug": "sweetgreen",
+    "domain": "Automated Restaurant Food Prep & Kitchen Robotics",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/sweetgreen"
+  },
+  {
+    "name": "Wonder",
+    "ats": "greenhouse",
+    "slug": "wonder",
+    "domain": "Food Hall Delivery & Kitchen Automation Technology",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/wonder"
+  },
+  {
+    "name": "Relativity Space",
+    "ats": "greenhouse",
+    "slug": "relativityspace",
+    "domain": "3D-Printed Rockets & Autonomous Manufacturing",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/relativityspace"
+  },
+  {
+    "name": "Planet Labs",
+    "ats": "Greenhouse",
+    "slug": "planetlabs",
+    "domain": "Daily Global Satellite Earth Observation Imagery",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/planetlabs"
+  },
+  {
+    "name": "Spire Global",
+    "ats": "Greenhouse",
+    "slug": "spire",
+    "domain": "Space-Based Earth & Maritime Radio Frequency Data",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/spire"
+  },
+  {
+    "name": "Capella Space",
+    "ats": "greenhouse",
+    "slug": "capellaspace",
+    "domain": "High-Resolution Synthetic Aperture Radar (SAR) Earth Imagery",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/capellaspace"
+  },
+  {
+    "name": "BlackSky",
+    "ats": "Greenhouse",
+    "slug": "blacksky",
+    "domain": "Real-Time Geospatial Intelligence & Monitoring",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/blacksky"
+  },
+  {
+    "name": "Astra",
+    "ats": "Ashby",
+    "slug": "astra",
+    "domain": "Dedicated Orbital Launch & Electric Spacecraft Engines",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/astra"
+  },
+  {
+    "name": "Rocket Lab",
+    "ats": "Greenhouse",
+    "slug": "rocketlab",
+    "domain": "Dedicated Small Satellite Launch & Spacecraft Tech",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/rocketlab"
+  },
+  {
+    "name": "Cognition AI",
+    "ats": "Ashby",
+    "slug": "cognition",
+    "domain": "Autonomous AI Software Engineers (Devin)",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/cognition"
+  },
+  {
+    "name": "Factory AI",
+    "ats": "Ashby",
+    "slug": "factory",
+    "domain": "Autonomous Enterprise Droids for Software Eng",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/factory"
+  },
+  {
+    "name": "Augment Code",
+    "ats": "ashby",
+    "slug": "augmentcode",
+    "domain": "AI Developer Platform & Code Intelligence",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/augmentcode"
+  },
+  {
+    "name": "Magic AI",
+    "ats": "ashby",
+    "slug": "magic",
+    "domain": "Ultra-Long Context Frontier AI Models",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/magic"
+  },
+  {
+    "name": "Poolside",
+    "ats": "Ashby",
+    "slug": "poolside",
+    "domain": "Frontier AI for Software Intelligence",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/poolside"
+  },
+  {
+    "name": "Fixie.ai",
+    "ats": "ashby",
+    "slug": "fixie",
+    "domain": "Conversational Voice AI & Agent Platform",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/fixie"
+  },
+  {
+    "name": "Sierra",
+    "ats": "Ashby",
+    "slug": "sierra",
+    "domain": "Conversational AI Platform for Enterprises",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/sierra"
+  },
+  {
+    "name": "Poe",
+    "ats": "greenhouse",
+    "slug": "poe",
+    "domain": "Fast Multi-Model AI Chat Ecosystem (Quora)",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/poe"
+  },
+  {
+    "name": "Quora",
+    "ats": "Ashby",
+    "slug": "quora",
+    "domain": "Knowledge Sharing & Poe AI Infrastructure",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/quora"
+  },
+  {
+    "name": "Grammarly",
+    "ats": "greenhouse",
+    "slug": "grammarly",
+    "domain": "AI Communication Assistance & Foundation Models",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/grammarly"
+  },
+  {
+    "name": "Canva",
+    "ats": "greenhouse",
+    "slug": "canva",
+    "domain": "Visual Design Platform & Generative Visual Tools",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/canva"
+  },
+  {
+    "name": "Lucid Software",
+    "ats": "Greenhouse",
+    "slug": "lucidsoftware",
+    "domain": "Visual Collaboration Suite (Lucidchart, Lucidspark)",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/lucidsoftware"
+  },
+  {
+    "name": "InVision",
+    "ats": "greenhouse",
+    "slug": "invision",
+    "domain": "Digital Product Design Platform",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/invision"
+  },
+  {
+    "name": "Sketch",
+    "ats": "greenhouse",
+    "slug": "sketch",
+    "domain": "Design Platform for Mac & Web Collaboration",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/sketch"
+  },
+  {
+    "name": "Smartsheet",
+    "ats": "Greenhouse",
+    "slug": "smartsheet",
+    "domain": "Dynamic Enterprise Work Execution Platform",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/smartsheet"
+  },
+  {
+    "name": "Wrike",
+    "ats": "Greenhouse",
+    "slug": "wrike",
+    "domain": "Intelligent Work & Project Management Platform",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/wrike"
+  },
+  {
+    "name": "Basecamp",
+    "ats": "lever",
+    "slug": "basecamp",
+    "domain": "Project Management & Team Communication",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.lever.co/basecamp"
+  },
+  {
+    "name": "LinearB",
+    "ats": "greenhouse",
+    "slug": "linearb",
+    "domain": "Software Engineering Intelligence & Dev Metrics",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/linearb"
+  },
+  {
+    "name": "Jellyfish",
+    "ats": "Ashby",
+    "slug": "jellyfish",
+    "domain": "Engineering Management Platform & Work Analytics",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/jellyfish"
+  },
+  {
+    "name": "Faros AI",
+    "ats": "ashby",
+    "slug": "faros",
+    "domain": "Engineering Operations Platform & Connected Data",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/faros"
+  },
+  {
+    "name": "Swarmia",
+    "ats": "Ashby",
+    "slug": "swarmia",
+    "domain": "Engineering Effectiveness Platform",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/swarmia"
+  },
+  {
+    "name": "DX",
+    "ats": "ashby",
+    "slug": "dx",
+    "domain": "Developer Experience & Productivity Measurement",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/dx"
+  },
+  {
+    "name": "Launchable",
+    "ats": "ashby",
+    "slug": "launchable",
+    "domain": "Predictive Test Automation & Machine Learning",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/launchable"
+  },
+  {
+    "name": "Testim",
+    "ats": "greenhouse",
+    "slug": "testim",
+    "domain": "AI-Based Test Automation Platform",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/testim"
+  },
+  {
+    "name": "Mabl",
+    "ats": "Greenhouse",
+    "slug": "mabl",
+    "domain": "Intelligent Test Automation for Quality Engineering",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/mabl"
+  },
+  {
+    "name": "Sauce Labs",
+    "ats": "Greenhouse",
+    "slug": "saucelabs",
+    "domain": "Continuous Testing Cloud & Error Reporting",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/saucelabs"
+  },
+  {
+    "name": "BrowserStack",
+    "ats": "greenhouse",
+    "slug": "browserstack",
+    "domain": "Cloud Web & Mobile App Testing Platform",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/browserstack"
+  },
+  {
+    "name": "LambdaTest",
+    "ats": "greenhouse",
+    "slug": "lambdatest",
+    "domain": "Next-Gen Cross-Browser Testing Cloud",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/lambdatest"
+  },
+  {
+    "name": "Applitools",
+    "ats": "greenhouse",
+    "slug": "applitools",
+    "domain": "Visual AI Testing & Monitoring Platform",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/applitools"
+  },
+  {
+    "name": "Cypress",
+    "ats": "greenhouse",
+    "slug": "cypress",
+    "domain": "Fast, Reliable Web Component & E2E Testing",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/cypress"
+  },
+  {
+    "name": "Playwright Team",
+    "ats": "greenhouse",
+    "slug": "microsoft",
+    "domain": "Browser Automation & Headless Testing Engines",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/microsoft"
+  },
+  {
+    "name": "Canary Technologies",
+    "ats": "Lever",
+    "slug": "canarytechnologies",
+    "domain": "Hotel Guest Management & Digital Check-In Infrastructure",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.lever.co/canarytechnologies"
+  },
+  {
+    "name": "Augury",
+    "ats": "Greenhouse",
+    "slug": "augury",
+    "domain": "Industrial Machine Health AI & Acoustic Sensor Analytics",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/augury"
+  },
+  {
+    "name": "Formlabs",
+    "ats": "Greenhouse",
+    "slug": "formlabs",
+    "domain": "Industrial Additive Manufacturing & 3D Printing Cloud",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/formlabs"
+  },
+  {
+    "name": "Foundry",
+    "ats": "Greenhouse",
+    "slug": "foundry",
+    "domain": "VFX & Digital Media Software (Nuke, Katana, Modo)",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/foundry"
+  },
+  {
+    "name": "Sofar Ocean",
+    "ats": "Ashby",
+    "slug": "sofarocean",
+    "domain": "Deep Sea Sensor Grid & Ocean Weather Intelligence",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/sofarocean"
+  },
+  {
+    "name": "Bedrock Ocean Exploration",
+    "ats": "Ashby",
+    "slug": "bedrockocean",
+    "domain": "Autonomous Underwater Seafloor Survey & Ocean Robotics",
+    "h1b_sponsor": true,
+    "career_url": "https://jobs.ashbyhq.com/bedrockocean"
+  },
+  {
+    "name": "Astranis",
+    "ats": "Greenhouse",
+    "slug": "astranis",
+    "domain": "Micro-Geostationary Telecommunications Satellites",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/astranis"
+  },
+  {
+    "name": "Varda Space",
+    "ats": "Greenhouse",
+    "slug": "vardaspace",
+    "domain": "Orbital Pharmaceutical Manufacturing & Reentry Capsules",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/vardaspace"
+  },
+  {
+    "name": "Xylem",
+    "ats": "direct",
+    "slug": "xylem",
+    "domain": "Water Technology, Wastewater SCADA & Critical Telemetry",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/xylem"
+  },
+  {
+    "name": "Badger Meter",
+    "ats": "direct",
+    "slug": "badgermeter",
+    "domain": "Municipal Water Telemetry, IoT Flow Measurement & Cloud Analytics",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/badgermeter"
+  },
+  {
+    "name": "Veolia North America",
+    "ats": "direct",
+    "slug": "veolianorthamerica",
+    "domain": "Water Treatment, Waste Recovery & Utility Infrastructure",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/veolianorthamerica"
+  },
+  {
+    "name": "Rockwell Automation",
+    "ats": "direct",
+    "slug": "rockwellautomation",
+    "domain": "Industrial Automation, Distributed Control & Edge Systems",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/rockwellautomation"
+  },
+  {
+    "name": "Oceaneering",
+    "ats": "direct",
+    "slug": "oceaneering",
+    "domain": "Deep Sea ROVs, Subsea Robotics & Space Exploration Systems",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/oceaneering"
+  },
+  {
+    "name": "SideFX",
+    "ats": "direct",
+    "slug": "sidefx",
+    "domain": "Procedural 3D Animation & Houdini Visual Effects Engine",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/sidefx"
+  },
+  {
+    "name": "Saildrone",
+    "ats": "Greenhouse",
+    "slug": "saildroneinc",
+    "domain": "Autonomous Ocean Surface Drone Fleet & Marine Telemetry",
+    "h1b_sponsor": true,
+    "career_url": "https://job-boards.greenhouse.io/saildroneinc"
+  }
+]

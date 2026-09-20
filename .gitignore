@@ -1,0 +1,16 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# Debug/test artifacts
+screenshots/
+scratch/
+
+# Personal data
+resumes/
+*.sqlite
+logs/
+applied_jobs.csv

@@ -1,0 +1,15 @@
+{
+  "status": "ACTIVE_RUNNING",
+  "cycle_number": 2,
+  "total_companies_monitored": 52000,
+  "last_scan_time": "2026-09-21 02:56:59",
+  "next_scan_time": "2026-09-21 03:01:59",
+  "seconds_until_next_scan": 300,
+  "interval_minutes": 5,
+  "companies_scanned_this_cycle": 80,
+  "roles_discovered_this_cycle": 32,
+  "total_active_roles_indexed": 150,
+  "candidate": "Naga Satya Phanindra Vallabhaneni",
+  "constraints": "Strictly 2-3 YOE \u2022 Strictly USA \u2022 USCIS H-1B Sponsor \u2022 1 Role/Company",
+  "autonomous_mode": "Zero Intervention Required"
+}
