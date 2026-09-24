@@ -614,3 +614,6 @@ CYCLE_INTERVAL_SECONDS = int(os.environ.get("CYCLE_INTERVAL_SECONDS", "45"))  # 
 HEADLESS = os.environ.get("HEADLESS", "false").lower() == "true"
 DRY_RUN = os.environ.get("DRY_RUN", "false").lower() == "true"
 MAX_JOBS_PER_CYCLE = int(os.environ.get("MAX_JOBS_PER_CYCLE", "5"))
+_freshness_window_raw = int(os.environ.get("JOB_FRESHNESS_WINDOW_HOURS", "24"))
+JOB_FRESHNESS_WINDOW_HOURS = _freshness_window_raw if _freshness_window_raw in (6, 24, 48) else 24
+SCAN_ALL_COMPANIES_EACH_CYCLE = os.environ.get("SCAN_ALL_COMPANIES_EACH_CYCLE", "true").lower() == "true"

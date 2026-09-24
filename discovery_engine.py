@@ -1,4 +1,5 @@
 import concurrent.futures
+import datetime
 import json
 import logging
 import random
@@ -12,6 +13,8 @@ from bs4 import BeautifulSoup
 from config import (
     COMPANIES_DATABASE,
     ONE_ROLE_PER_COMPANY,
+    JOB_FRESHNESS_WINDOW_HOURS,
+    SCAN_ALL_COMPANIES_EACH_CYCLE,
     is_strictly_usa,
     matches_cs_tech_stack,
     contains_wipro,
@@ -21,6 +24,65 @@ from config import (
 )
 
 logger = logging.getLogger("JarvisJobAgent.DiscoveryEngine")
+
+
+def _parse_timestamp(value: Any) -> Optional[datetime.datetime]:
+    """Parses mixed timestamp formats (ISO strings, epoch seconds/ms) into UTC datetime."""
+    if value is None:
+        return None
+    try:
+        if isinstance(value, (int, float)):
+            ts = float(value)
+            if ts > 10_000_000_000:
+                ts /= 1000.0
+            return datetime.datetime.fromtimestamp(ts, tz=datetime.timezone.utc)
+        if isinstance(value, str):
+            raw = value.strip()
+            if not raw:
+                return None
+            if re.fullmatch(r"\d{10,13}", raw):
+                ts = float(raw)
+                if len(raw) == 13:
+                    ts /= 1000.0
+                return datetime.datetime.fromtimestamp(ts, tz=datetime.timezone.utc)
+            iso = raw.replace("Z", "+00:00")
+            dt = datetime.datetime.fromisoformat(iso)
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=datetime.timezone.utc)
+            return dt.astimezone(datetime.timezone.utc)
+    except Exception:
+        return None
+    return None
+
+
+def _extract_posted_at(job: Dict[str, Any], platform: str) -> Optional[datetime.datetime]:
+    """Extracts posting timestamp from ATS payload using known fields."""
+    candidate_keys = [
+        "published_at", "publishedAt", "postingDate", "datePosted",
+        "first_published", "created_at", "createdAt", "updated_at", "updatedAt",
+        "lastUpdatedAt", "openDate", "openedAt"
+    ]
+    for key in candidate_keys:
+        dt = _parse_timestamp(job.get(key))
+        if dt:
+            return dt
+
+    if platform == "lever":
+        cats = job.get("categories") or {}
+        for key in ["createdAt", "updatedAt"]:
+            dt = _parse_timestamp(cats.get(key))
+            if dt:
+                return dt
+    return None
+
+
+def _is_within_freshness_window(posted_at: Optional[datetime.datetime]) -> bool:
+    """Returns True only for roles posted/updated inside configured recent-hours window."""
+    if not posted_at:
+        return False
+    now_utc = datetime.datetime.now(datetime.timezone.utc)
+    max_age = datetime.timedelta(hours=JOB_FRESHNESS_WINDOW_HOURS)
+    return (now_utc - posted_at) <= max_age
 
 # Expansive US tech directory covering 18+ bizarre, overlooked, and counter-intuitive domains
 SEED_US_COMPANIES = [
@@ -258,8 +320,9 @@ def fetch_jobs_from_company(company: Dict[str, Any]) -> List[Dict[str, Any]]:
 
                     raw_content = j.get("content") or ""
                     clean_desc = BeautifulSoup(raw_content, "html.parser").get_text(separator=" ") if raw_content else ""
+                    posted_at = _extract_posted_at(j, "greenhouse")
 
-                    if is_strictly_usa(loc) and matches_cs_tech_stack(title, clean_desc):
+                    if posted_at and _is_within_freshness_window(posted_at) and is_strictly_usa(loc) and matches_cs_tech_stack(title, clean_desc):
                         jobs.append({
                             "source": f"Greenhouse ({comp_name})",
                             "ats_platform": "Greenhouse",
@@ -269,6 +332,7 @@ def fetch_jobs_from_company(company: Dict[str, Any]) -> List[Dict[str, Any]]:
                             "title": title,
                             "location": loc or "United States (Remote)",
                             "url": apply_url,
+                            "posted_at": posted_at.isoformat(),
                             "description": clean_desc or f"Seeking {title} at {comp_name} ({domain}) with Python, SQL, Docker, and data pipeline experience."
                         })
         except Exception as e:
@@ -289,8 +353,9 @@ def fetch_jobs_from_company(company: Dict[str, Any]) -> List[Dict[str, Any]]:
                     desc_plain = j.get("descriptionPlain") or ""
                     if not desc_plain and j.get("descriptionHtml"):
                         desc_plain = BeautifulSoup(j.get("descriptionHtml"), "html.parser").get_text(separator=" ")
+                    posted_at = _extract_posted_at(j, "ashby")
 
-                    if is_strictly_usa(loc) and matches_cs_tech_stack(title, desc_plain):
+                    if posted_at and _is_within_freshness_window(posted_at) and is_strictly_usa(loc) and matches_cs_tech_stack(title, desc_plain):
                         jobs.append({
                             "source": f"Ashby ({comp_name})",
                             "ats_platform": "Ashby",
@@ -300,6 +365,7 @@ def fetch_jobs_from_company(company: Dict[str, Any]) -> List[Dict[str, Any]]:
                             "title": title,
                             "location": loc or "United States (Remote)",
                             "url": apply_url,
+                            "posted_at": posted_at.isoformat(),
                             "description": desc_plain or f"Seeking {title} at {comp_name} ({domain}) with Computer Science background and Python experience."
                         })
         except Exception as e:
@@ -321,8 +387,9 @@ def fetch_jobs_from_company(company: Dict[str, Any]) -> List[Dict[str, Any]]:
                     desc_plain = j.get("descriptionPlain") or ""
                     if not desc_plain and j.get("description"):
                         desc_plain = BeautifulSoup(j.get("description"), "html.parser").get_text(separator=" ")
+                    posted_at = _extract_posted_at(j, "lever")
 
-                    if is_strictly_usa(loc) and matches_cs_tech_stack(title, desc_plain):
+                    if posted_at and _is_within_freshness_window(posted_at) and is_strictly_usa(loc) and matches_cs_tech_stack(title, desc_plain):
                         jobs.append({
                             "source": f"Lever ({comp_name})",
                             "ats_platform": "Lever",
@@ -332,6 +399,7 @@ def fetch_jobs_from_company(company: Dict[str, Any]) -> List[Dict[str, Any]]:
                             "title": title,
                             "location": loc or "United States (Remote)",
                             "url": apply_url,
+                            "posted_at": posted_at.isoformat(),
                             "description": desc_plain or f"Seeking {title} at {comp_name} ({domain}) with Computer Science background."
                         })
         except Exception as e:
@@ -384,14 +452,19 @@ def discover_and_source_us_cs_roles(limit: int = 20) -> List[Dict[str, Any]]:
             logger.debug(f"Auto discovery notice: {e}")
 
     random.shuffle(unapplied)
-    logger.info(f"Concurrently scanning {len(unapplied)} unapplied US companies for 2-3 yr CS roles...")
+    scan_mode = "full-registry" if SCAN_ALL_COMPANIES_EACH_CYCLE else "early-stop"
+    logger.info(
+        f"Concurrently scanning {len(unapplied)} unapplied US companies for 2-3 yr CS roles "
+        f"(mode={scan_mode}, freshness<={JOB_FRESHNESS_WINDOW_HOURS}h)..."
+    )
     discovered_roles = []
     seen_companies = set()
+    hard_limit = None if SCAN_ALL_COMPANIES_EACH_CYCLE else max(1, limit)
 
     # Process unapplied companies in concurrent batches until limit is satisfied
     chunk_size = 25
     for offset in range(0, len(unapplied), chunk_size):
-        if len(discovered_roles) >= limit:
+        if hard_limit is not None and len(discovered_roles) >= hard_limit:
             break
         batch = unapplied[offset:offset + chunk_size]
         with concurrent.futures.ThreadPoolExecutor(max_workers=12) as executor:
@@ -406,7 +479,7 @@ def discover_and_source_us_cs_roles(limit: int = 20) -> List[Dict[str, Any]]:
                             seen_companies.add(c_name)
                             discovered_roles.append(best_role)
                             logger.info(f"Identified target role at {best_role.get('company')}: {best_role.get('title')}")
-                            if len(discovered_roles) >= limit:
+                            if hard_limit is not None and len(discovered_roles) >= hard_limit:
                                 break
                 except Exception as e:
                     logger.debug(f"Concurrent fetch exception: {e}")

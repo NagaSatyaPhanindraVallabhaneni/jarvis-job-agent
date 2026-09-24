@@ -2451,6 +2451,7 @@ def audit_form_before_approval(page: Page, on_progress: Any = None) -> Tuple[boo
     has_phone = False
     filled_count = 0
     missing = []
+    required_empty_text_fields = 0
 
     try:
         inputs = page.locator("input:not([type='hidden']), textarea, select").all()
@@ -2489,6 +2490,35 @@ def audit_form_before_approval(page: Page, on_progress: Any = None) -> Tuple[boo
                         clean_digits = re.sub(r"\D", "", val)
                         if len(clean_digits) >= 10:
                             has_phone = True
+                    else:
+                        try:
+                            cls = (inp.get_attribute("class") or "").lower()
+                            role = (inp.get_attribute("role") or "").lower()
+                            if "select__input" in cls or role == "combobox":
+                                continue
+                            req_attr = inp.get_attribute("required")
+                            aria_req = (inp.get_attribute("aria-required") or "").lower()
+                            if req_attr is not None or aria_req == "true":
+                                required_empty_text_fields += 1
+                                continue
+                            inp_id = inp.get_attribute("id") or ""
+                            label_txt = ""
+                            if inp_id:
+                                lbl = page.locator(f"label[for='{inp_id}']").first
+                                if lbl.count() > 0:
+                                    label_txt = lbl.inner_text().lower()
+                            if not label_txt:
+                                try:
+                                    label_txt = inp.locator("xpath=preceding::label[1]").inner_text().lower()
+                                except Exception:
+                                    label_txt = ""
+                            req_parent = inp.locator(
+                                "xpath=ancestor::div[contains(@class, 'required') or contains(@class, 'field--required') or contains(@aria-required, 'true')]"
+                            ).count()
+                            if req_parent > 0 or "*" in label_txt:
+                                required_empty_text_fields += 1
+                        except Exception:
+                            pass
             except Exception:
                 continue
 
@@ -2537,10 +2567,97 @@ def audit_form_before_approval(page: Page, on_progress: Any = None) -> Tuple[boo
         missing.append(f"{unfilled_mandatory_selects} Required Dropdown Questions Unfilled")
     elif unfilled_selects > 0:
         logger.info(f"[Audit] Note: {unfilled_selects} optional survey/demographic dropdowns left unselected.")
+    if required_empty_text_fields > 0:
+        missing.append(f"{required_empty_text_fields} Required Text Fields Unfilled")
 
-    is_ready = has_name and has_email and (filled_count >= 3) and (unfilled_mandatory_selects == 0)
+    is_ready = has_name and has_email and (filled_count >= 3) and (unfilled_mandatory_selects == 0) and (required_empty_text_fields == 0)
     logger.info(f"[Audit] Result: ready={is_ready}, filled={filled_count}, missing={missing}")
     return is_ready, filled_count, missing
+
+
+def recover_required_text_fields(page: Page, on_progress: Any = None) -> int:
+    """Best-effort recovery pass for required empty text/textarea fields."""
+    recovered = 0
+    try:
+        fields = page.locator("input:not([type='hidden']):visible, textarea:visible").all()
+        for fld in fields:
+            check_pause_and_abort(page)
+            try:
+                if not fld.is_visible():
+                    continue
+                fld_type = (fld.get_attribute("type") or "").lower()
+                fld_class = (fld.get_attribute("class") or "").lower()
+                fld_role = (fld.get_attribute("role") or "").lower()
+                if fld_type in ["radio", "checkbox", "file", "submit", "button", "search"]:
+                    continue
+                if "select__input" in fld_class or fld_role == "combobox":
+                    continue
+                if (fld.input_value() or "").strip():
+                    continue
+
+                req_attr = fld.get_attribute("required")
+                aria_req = (fld.get_attribute("aria-required") or "").lower()
+                is_required = (req_attr is not None) or (aria_req == "true")
+
+                fld_id = (fld.get_attribute("id") or "").strip()
+                fld_name = (fld.get_attribute("name") or "").lower()
+                placeholder = (fld.get_attribute("placeholder") or "").lower()
+                aria_label = (fld.get_attribute("aria-label") or "").lower()
+                label_text = ""
+                if fld_id:
+                    lbl = page.locator(f"label[for='{fld_id}']").first
+                    if lbl.count() > 0:
+                        label_text = lbl.inner_text().lower()
+                if not label_text:
+                    try:
+                        label_text = fld.locator("xpath=preceding::label[1]").inner_text().lower()
+                    except Exception:
+                        label_text = ""
+                if not is_required:
+                    req_parent = fld.locator(
+                        "xpath=ancestor::div[contains(@class, 'required') or contains(@class, 'field--required') or contains(@aria-required, 'true')]"
+                    ).count()
+                    if req_parent > 0 or "*" in label_text:
+                        is_required = True
+                if not is_required:
+                    continue
+
+                context = f"{fld_name} {placeholder} {aria_label} {label_text}"
+                if "first" in context and "name" in context:
+                    human_type_input(page, fld, "First Name", CANDIDATE_FIRST_NAME, on_progress=on_progress)
+                    recovered += 1
+                elif "last" in context and "name" in context:
+                    human_type_input(page, fld, "Last Name", CANDIDATE_LAST_NAME, on_progress=on_progress)
+                    recovered += 1
+                elif "name" in context:
+                    human_type_input(page, fld, "Full Name", CANDIDATE_NAME, on_progress=on_progress)
+                    recovered += 1
+                elif "email" in context:
+                    human_type_input(page, fld, "Email", CANDIDATE_EMAIL, on_progress=on_progress)
+                    recovered += 1
+                elif "phone" in context or "mobile" in context:
+                    human_type_input(page, fld, "Phone", CANDIDATE_PHONE, on_progress=on_progress)
+                    recovered += 1
+                elif "city" in context:
+                    human_type_input(page, fld, "City", CANDIDATE_CITY, on_progress=on_progress)
+                    recovered += 1
+                elif "state" in context:
+                    human_type_input(page, fld, "State", CANDIDATE_STATE, on_progress=on_progress)
+                    recovered += 1
+                elif "zip" in context or "postal" in context:
+                    human_type_input(page, fld, "Postal Code", CANDIDATE_ZIP, on_progress=on_progress)
+                    recovered += 1
+                elif "country" in context:
+                    human_type_input(page, fld, "Country", CANDIDATE_COUNTRY, on_progress=on_progress)
+                    recovered += 1
+                elif "location" in context or "address" in context:
+                    human_type_input(page, fld, "Location", CANDIDATE_LOCATION, on_progress=on_progress)
+                    recovered += 1
+            except Exception:
+                continue
+    except Exception:
+        pass
+    return recovered
 
 
 def execute_recovery_fill_pass(page: Page, missing: List[str], tailored_pdf: Path, job: Optional[Dict[str, Any]] = None, on_progress: Any = None):
@@ -2597,6 +2714,10 @@ def execute_recovery_fill_pass(page: Page, missing: List[str], tailored_pdf: Pat
             if el.count() > 0 and el.is_visible() and not (el.input_value() or "").strip():
                 human_type_input(page, el, "Phone", CANDIDATE_PHONE, on_progress=on_progress)
                 break
+
+    # 4. Recover required empty text fields by context
+    if any("Required Text Fields Unfilled" in m for m in missing):
+        recover_required_text_fields(page, on_progress=on_progress)
 
     # Sweep options & radios again
     try:
