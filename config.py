@@ -1,4 +1,5 @@
 import csv
+import json
 import os
 import re
 from pathlib import Path
@@ -20,10 +21,14 @@ SCREENSHOTS_DIR.mkdir(parents=True, exist_ok=True)
 APPLIED_CSV = BASE_DIR / "applied_jobs.csv"
 APPLICATIONS_DB = BASE_DIR / "applications.sqlite"
 COMPANIES_DATABASE = BASE_DIR / "companies_database.json"
+LIVE_MARKET_ROLES_FILE = BASE_DIR / "live_market_roles.json"
 
 # Antigravity Brain Artifacts Integration
 CONVERSATION_ID = "9836f807-7079-403c-9787-a6463cdbaaad"
-ARTIFACT_DIR = Path(f"C:/Users/phani/.gemini/antigravity/brain/{CONVERSATION_ID}")
+ARTIFACT_DIR = Path(
+    os.environ.get("ARTIFACT_DIR", str(BASE_DIR / "artifacts" / "brain" / CONVERSATION_ID))
+)
+ARTIFACT_DIR.mkdir(parents=True, exist_ok=True)
 ARTIFACT_DASHBOARD = ARTIFACT_DIR / "live_dashboard.md"
 ARTIFACT_VIEWPORT = ARTIFACT_DIR / "live_viewport.png"
 

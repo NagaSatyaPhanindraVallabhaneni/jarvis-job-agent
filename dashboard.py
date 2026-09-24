@@ -11,6 +11,7 @@ from config import (
     APPLIED_CSV,
     APPLICATIONS_DB,
     COMPANIES_DATABASE,
+    LIVE_MARKET_ROLES_FILE,
     ARTIFACT_DASHBOARD,
     ARTIFACT_VIEWPORT,
     CANDIDATE_NAME,
@@ -304,12 +305,11 @@ def get_pipeline_data() -> Dict[str, Any]:
     total_captured = len(captured)
 
     # Discovered roles from live registry
-    live_roles_file = Path(r"d:\jarvis_job_agent\live_market_roles.json")
     discovered_count = 53
     discovered_roles = []
-    if live_roles_file.exists():
+    if LIVE_MARKET_ROLES_FILE.exists():
         try:
-            with open(live_roles_file, "r", encoding="utf-8") as f:
+            with open(LIVE_MARKET_ROLES_FILE, "r", encoding="utf-8") as f:
                 lr = json.load(f)
                 discovered_roles = lr[:15]
                 discovered_count = len(lr)

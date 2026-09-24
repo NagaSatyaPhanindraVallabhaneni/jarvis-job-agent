@@ -10,13 +10,13 @@ import logging
 import os
 import re
 import time
-from pathlib import Path
 from typing import Dict, Any, List, Optional
 import requests
 
 from config import (
     load_candidate_profile,
     CANDIDATE_PREFERRED_NAME,
+    LIVE_MARKET_ROLES_FILE,
     OPENROUTER_API_KEY,
     OPENROUTER_BASE_URL,
     OPENROUTER_MODEL,
@@ -55,9 +55,8 @@ class JarvisBrain:
 
         live_roles = []
         try:
-            live_roles_file = Path(r"d:\jarvis_job_agent\live_market_roles.json")
-            if live_roles_file.exists():
-                live_roles = json.loads(live_roles_file.read_text(encoding="utf-8"))
+            if LIVE_MARKET_ROLES_FILE.exists():
+                live_roles = json.loads(LIVE_MARKET_ROLES_FILE.read_text(encoding="utf-8"))
         except Exception:
             pass
 
@@ -875,4 +874,3 @@ class JarvisBrain:
 
 
 jarvis_brain = JarvisBrain()
-
